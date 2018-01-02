@@ -1,0 +1,14 @@
+<ion-header>
+    <ion-navbar>   <!-- navigation이 가능한 header bar라는 것. -->
+      <button ion-button menuToggle>  <!--이 버튼을 눌렀을 때 sidemenu를 띄울 수 있게 됨. 여기서 'menuToggle'이 없으면 menu가 한 번만 가능함..sidemenu를 계속 사용하려면 menuToggle 써주어야 한다. -->
+        <ion-icon name="menu"></ion-icon>
+      </button>
+      <ion-title>ActionSheetPage</ion-title>
+    </ion-navbar>
+  </ion-header>
+
+  <ion-content padding>
+      <button ion-button block (click)="presentActionSheet()">  <!-- 'block'은 좌우로 화면 꽉차게 버튼이 보여지게 하는 걸 의미. 그런데 이렇게만 하면 좌우로 너무 꽉차기 때문에 ion-content에 'padding'을 해주면 된다. -->
+          Show Action Sheet
+      </button>   
+  </ion-content>
