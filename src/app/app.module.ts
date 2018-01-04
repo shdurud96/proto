@@ -13,6 +13,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import { BackgroundImageCardsPage } from '../pages/card/bg-cards/bg-cards';
 import { SocialCardsPage } from '../pages/card/social-cards/social-cards';
 import { CardPage } from '../pages/card/card';
+import { DatetimePage } from '../pages/datetime/datetime';
+import { FabPage } from '../pages/fab/fab';
 
 @NgModule({
   declarations: [
@@ -23,7 +25,9 @@ import { CardPage } from '../pages/card/card';
     HomePage,
     CardPage,
       BackgroundImageCardsPage,
-      SocialCardsPage
+      SocialCardsPage,
+    DatetimePage,
+    FabPage
   ],
   imports: [
     BrowserModule,
@@ -38,7 +42,9 @@ import { CardPage } from '../pages/card/card';
     HomePage,
     CardPage,
       BackgroundImageCardsPage,
-      SocialCardsPage
+      SocialCardsPage,
+    DatetimePage,
+    FabPage
   ],
   providers: [
     StatusBar,

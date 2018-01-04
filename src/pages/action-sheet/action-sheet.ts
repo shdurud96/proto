@@ -5,6 +5,9 @@ import { ActionSheetController } from 'ionic-angular'
     templateUrl: 'action-sheet.html'   //"action-sheet page가 이 html파일을 쓰겠다"
 })
 export class ActionSheetPage{
+
+    name: string="";
+
     constructor(public actionSheetCtrl: ActionSheetController){
     
     }

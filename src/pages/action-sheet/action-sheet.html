@@ -8,6 +8,9 @@
   </ion-header>
 
   <ion-content padding>
+    <input [(ngModel)]="name" />
+    <p>Hello, {{name}}</p>
+    <p *ngIf="name != ' '">Welcome!</p>
       <button ion-button block (click)="presentActionSheet()">  <!-- 'block'은 좌우로 화면 꽉차게 버튼이 보여지게 하는 걸 의미. 그런데 이렇게만 하면 좌우로 너무 꽉차기 때문에 ion-content에 'padding'을 해주면 된다. -->
           Show Action Sheet
       </button>   

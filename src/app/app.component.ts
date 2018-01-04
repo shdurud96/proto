@@ -8,6 +8,8 @@ import { AlertPage } from '../pages/alert/alert';
 import { ButtonPage } from '../pages/button/button';
 import { HomePage } from '../pages/home/home';
 import { CardPage } from '../pages/card/card';
+import { DatetimePage } from '../pages/datetime/datetime';
+import { FabPage } from '../pages/fab/fab';
 
 @Component({
   templateUrl: 'app.html'
@@ -28,7 +30,9 @@ export class MyApp {
       { title: 'Alert Page', component: AlertPage },
       { title: 'Button Page', component: ButtonPage },
       { title: 'Home', component: HomePage },
-      { title: 'Card Page', component: CardPage }
+      { title: 'Card Page', component: CardPage },
+      { title: 'Datetime Page', component: DatetimePage },
+      { title: 'Fab page', component: FabPage }
     ];
 
   }

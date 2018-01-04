@@ -17,7 +17,7 @@ export class CardPage{
         this.navCtrl.push(BackgroundImageCardsPage);
 
     }
-    openSocialCardsPage(){
+    openSocialCardPage(){
         this.navCtrl.push(SocialCardsPage);
     }
 }
