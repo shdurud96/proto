@@ -7,10 +7,12 @@ import { ActionSheetPage } from '../pages/action-sheet/action-sheet';
 import { AlertPage } from '../pages/alert/alert';
 import { ButtonPage } from '../pages/button/button';
 import { HomePage } from '../pages/home/home';
-import { ListPage } from '../pages/list/list';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
+import { BackgroundImageCardsPage } from '../pages/card/bg-cards/bg-cards';
+import { SocialCardsPage } from '../pages/card/social-cards/social-cards';
+import { CardPage } from '../pages/card/card';
 
 @NgModule({
   declarations: [
@@ -19,11 +21,13 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     AlertPage,
     ButtonPage,
     HomePage,
-    ListPage
+    CardPage,
+      BackgroundImageCardsPage,
+      SocialCardsPage
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(MyApp),
+    IonicModule.forRoot(MyApp)
   ],
   bootstrap: [IonicApp],
   entryComponents: [
@@ -32,7 +36,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     AlertPage,
     ButtonPage,
     HomePage,
-    ListPage
+    CardPage,
+      BackgroundImageCardsPage,
+      SocialCardsPage
   ],
   providers: [
     StatusBar,

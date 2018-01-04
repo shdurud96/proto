@@ -7,8 +7,7 @@ import { ActionSheetPage } from '../pages/action-sheet/action-sheet';
 import { AlertPage } from '../pages/alert/alert';
 import { ButtonPage } from '../pages/button/button';
 import { HomePage } from '../pages/home/home';
-import { ListPage } from '../pages/list/list';
-
+import { CardPage } from '../pages/card/card';
 
 @Component({
   templateUrl: 'app.html'
@@ -16,7 +15,7 @@ import { ListPage } from '../pages/list/list';
 export class MyApp {
   @ViewChild(Nav) nav: Nav;
 
-  rootPage: any = HomePage;
+  rootPage:any = HomePage;
 
   pages: Array<{title: string, component: any}>;
 
@@ -29,7 +28,7 @@ export class MyApp {
       { title: 'Alert Page', component: AlertPage },
       { title: 'Button Page', component: ButtonPage },
       { title: 'Home', component: HomePage },
-      { title: 'List', component: ListPage }
+      { title: 'Card Page', component: CardPage }
     ];
 
   }
