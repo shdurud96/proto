@@ -9,6 +9,7 @@ import { SuccessPage } from './success/success';
 export class InputPage{
     username: string="";
     password: string="";
+    labelColor: string = "primary";
 
     constructor(public navCtrl: NavController){
 
@@ -19,5 +20,11 @@ export class InputPage{
             username: this.username, //parameter를 successPage로 넘김.
             password: this.password
         });
+    }
+    doBlur(){
+        this.labelColor = "danger";
+    }
+    doFocus(){
+        this.labelColor = "secondary";
     }
 }
