@@ -17,6 +17,8 @@ import { DatetimePage } from '../pages/datetime/datetime';
 import { FabPage } from '../pages/fab/fab';
 import { InputPage } from '../pages/input/input';
 import { SuccessPage } from '../pages/input/success/success';
+import { ListPage } from '../pages/lists/lists';
+import { DetailPage } from '../pages/lists/detail/detail';
 
 
 @NgModule({
@@ -32,7 +34,9 @@ import { SuccessPage } from '../pages/input/success/success';
     DatetimePage,
     FabPage,
     InputPage,
-    SuccessPage
+      SuccessPage,
+    ListPage,
+      DetailPage
   ],
   imports: [
     BrowserModule,
@@ -51,7 +55,9 @@ import { SuccessPage } from '../pages/input/success/success';
     DatetimePage,
     FabPage,
     InputPage,
-      SuccessPage 
+      SuccessPage,
+    ListPage,
+      DetailPage
   ],
   providers: [
     StatusBar,

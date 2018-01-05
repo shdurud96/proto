@@ -11,6 +11,7 @@ import { CardPage } from '../pages/card/card';
 import { DatetimePage } from '../pages/datetime/datetime';
 import { FabPage } from '../pages/fab/fab';
 import { InputPage } from '../pages/input/input';
+import { ListPage } from '../pages/lists/lists';
 
 
 @Component({
@@ -35,7 +36,8 @@ export class MyApp {
       { title: 'Card Page', component: CardPage },
       { title: 'Datetime Page', component: DatetimePage },
       { title: 'Fab page', component: FabPage },
-      { title: 'Input page', component: InputPage }
+      { title: 'Input page', component: InputPage },
+      { title: 'List page', component: ListPage }
     ];
 
   }
