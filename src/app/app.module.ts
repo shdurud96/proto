@@ -15,6 +15,9 @@ import { SocialCardsPage } from '../pages/card/social-cards/social-cards';
 import { CardPage } from '../pages/card/card';
 import { DatetimePage } from '../pages/datetime/datetime';
 import { FabPage } from '../pages/fab/fab';
+import { InputPage } from '../pages/input/input';
+import { SuccessPage } from '../pages/input/success/success';
+
 
 @NgModule({
   declarations: [
@@ -27,7 +30,9 @@ import { FabPage } from '../pages/fab/fab';
       BackgroundImageCardsPage,
       SocialCardsPage,
     DatetimePage,
-    FabPage
+    FabPage,
+    InputPage,
+    SuccessPage
   ],
   imports: [
     BrowserModule,
@@ -44,7 +49,9 @@ import { FabPage } from '../pages/fab/fab';
       BackgroundImageCardsPage,
       SocialCardsPage,
     DatetimePage,
-    FabPage
+    FabPage,
+    InputPage,
+      SuccessPage 
   ],
   providers: [
     StatusBar,

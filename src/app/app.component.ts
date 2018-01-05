@@ -10,6 +10,8 @@ import { HomePage } from '../pages/home/home';
 import { CardPage } from '../pages/card/card';
 import { DatetimePage } from '../pages/datetime/datetime';
 import { FabPage } from '../pages/fab/fab';
+import { InputPage } from '../pages/input/input';
+
 
 @Component({
   templateUrl: 'app.html'
@@ -32,7 +34,8 @@ export class MyApp {
       { title: 'Home', component: HomePage },
       { title: 'Card Page', component: CardPage },
       { title: 'Datetime Page', component: DatetimePage },
-      { title: 'Fab page', component: FabPage }
+      { title: 'Fab page', component: FabPage },
+      { title: 'Input page', component: InputPage }
     ];
 
   }
