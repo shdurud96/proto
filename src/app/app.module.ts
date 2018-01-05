@@ -19,6 +19,7 @@ import { InputPage } from '../pages/input/input';
 import { SuccessPage } from '../pages/input/success/success';
 import { ListPage } from '../pages/lists/lists';
 import { DetailPage } from '../pages/lists/detail/detail';
+import { LoadingPage } from '../pages/loading/loading';
 
 
 @NgModule({
@@ -36,7 +37,8 @@ import { DetailPage } from '../pages/lists/detail/detail';
     InputPage,
       SuccessPage,
     ListPage,
-      DetailPage
+      DetailPage,
+    LoadingPage
   ],
   imports: [
     BrowserModule,
@@ -57,7 +59,8 @@ import { DetailPage } from '../pages/lists/detail/detail';
     InputPage,
       SuccessPage,
     ListPage,
-      DetailPage
+      DetailPage,
+    LoadingPage
   ],
   providers: [
     StatusBar,

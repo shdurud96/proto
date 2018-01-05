@@ -12,6 +12,7 @@ import { DatetimePage } from '../pages/datetime/datetime';
 import { FabPage } from '../pages/fab/fab';
 import { InputPage } from '../pages/input/input';
 import { ListPage } from '../pages/lists/lists';
+import { LoadingPage } from '../pages/loading/loading';
 
 
 @Component({
@@ -37,7 +38,8 @@ export class MyApp {
       { title: 'Datetime Page', component: DatetimePage },
       { title: 'Fab page', component: FabPage },
       { title: 'Input page', component: InputPage },
-      { title: 'List page', component: ListPage }
+      { title: 'List page', component: ListPage },
+      { title: 'Loading page', component: LoadingPage }
     ];
 
   }
