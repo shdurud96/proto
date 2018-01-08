@@ -20,11 +20,26 @@ import { SuccessPage } from '../pages/input/success/success';
 import { ListPage } from '../pages/lists/lists';
 import { DetailPage } from '../pages/lists/detail/detail';
 import { LoadingPage } from '../pages/loading/loading';
+import { AngularFireModule } from 'angularfire2';
+import { AngularFireAuthModule } from 'angularfire2/auth';
+import { LoginPage } from '../pages/login/login';
+import { RegisterPage } from '../pages/register/register';
 
+
+var config = {
+  apiKey: "AIzaSyDTX3dMbEsue0SrseVUORbsJYaDxw-LHg4",
+  authDomain: "firstfirebase-ec98d.firebaseapp.com",
+  databaseURL: "https://firstfirebase-ec98d.firebaseio.com",
+  projectId: "firstfirebase-ec98d",
+  storageBucket: "firstfirebase-ec98d.appspot.com",
+  messagingSenderId: "245546995981"
+};
 
 @NgModule({
   declarations: [
     MyApp,
+    LoginPage,
+    RegisterPage,
     ActionSheetPage,  //반드시 등록 해주어야 함.
     AlertPage,
     ButtonPage,
@@ -42,11 +57,16 @@ import { LoadingPage } from '../pages/loading/loading';
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(MyApp)
+    IonicModule.forRoot(MyApp),
+    AngularFireModule.initializeApp(config),
+    AngularFireAuthModule,
+    AngularFireModule
   ],
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
+    LoginPage,
+    RegisterPage,
     ActionSheetPage,
     AlertPage,
     ButtonPage,

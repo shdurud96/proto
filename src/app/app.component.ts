@@ -2,6 +2,7 @@ import { Component, ViewChild } from '@angular/core';
 import { Nav, Platform } from 'ionic-angular';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
+import { AngularFireAuthModule } from 'angularfire2/auth'
 
 import { ActionSheetPage } from '../pages/action-sheet/action-sheet';
 import { AlertPage } from '../pages/alert/alert';
@@ -13,6 +14,7 @@ import { FabPage } from '../pages/fab/fab';
 import { InputPage } from '../pages/input/input';
 import { ListPage } from '../pages/lists/lists';
 import { LoadingPage } from '../pages/loading/loading';
+import { LoginPage } from '../pages/login/login';
 
 
 @Component({
@@ -21,7 +23,7 @@ import { LoadingPage } from '../pages/loading/loading';
 export class MyApp {
   @ViewChild(Nav) nav: Nav;
 
-  rootPage:any = HomePage;
+  rootPage:any = LoginPage;
 
   pages: Array<{title: string, component: any}>;
 
