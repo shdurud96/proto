@@ -1,6 +1,6 @@
 webpackJsonp([0],{
 
-/***/ 113:
+/***/ 150:
 /***/ (function(module, exports) {
 
 function webpackEmptyAsyncContext(req) {
@@ -13,11 +13,11 @@ function webpackEmptyAsyncContext(req) {
 webpackEmptyAsyncContext.keys = function() { return []; };
 webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
 module.exports = webpackEmptyAsyncContext;
-webpackEmptyAsyncContext.id = 113;
+webpackEmptyAsyncContext.id = 150;
 
 /***/ }),
 
-/***/ 155:
+/***/ 193:
 /***/ (function(module, exports) {
 
 function webpackEmptyAsyncContext(req) {
@@ -30,17 +30,17 @@ function webpackEmptyAsyncContext(req) {
 webpackEmptyAsyncContext.keys = function() { return []; };
 webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
 module.exports = webpackEmptyAsyncContext;
-webpackEmptyAsyncContext.id = 155;
+webpackEmptyAsyncContext.id = 193;
 
 /***/ }),
 
-/***/ 199:
+/***/ 236:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ActionSheetPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(13);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -86,7 +86,7 @@ var ActionSheetPage = (function () {
         actionSheet.present(); //presentActionSheet함수가 실행될 때마다 ActionSheet이 등장하게 됨.
     };
     ActionSheetPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"C:\Users\Junyong\Bash\Inflearn_Ionic\src\pages\action-sheet\action-sheet.html"*/'<ion-header>\n\n    <ion-navbar>   <!-- navigation이 가능한 header bar라는 것. -->\n\n      <button ion-button menuToggle>  <!--이 버튼을 눌렀을 때 sidemenu를 띄울 수 있게 됨. 여기서 \'menuToggle\'이 없으면 menu가 한 번만 가능함..sidemenu를 계속 사용하려면 menuToggle 써주어야 한다. -->\n\n        <ion-icon name="menu"></ion-icon>\n\n      </button>\n\n      <ion-title>ActionSheetPage</ion-title>\n\n    </ion-navbar>\n\n  </ion-header>\n\n\n\n  <ion-content padding>\n\n    <input [(ngModel)]="name" />\n\n    <p>Hello, {{name}}</p>\n\n    <p *ngIf="name != \' \'">Welcome!</p>\n\n      <button ion-button block (click)="presentActionSheet()">  <!-- \'block\'은 좌우로 화면 꽉차게 버튼이 보여지게 하는 걸 의미. 그런데 이렇게만 하면 좌우로 너무 꽉차기 때문에 ion-content에 \'padding\'을 해주면 된다. -->\n\n          Show Action Sheet\n\n      </button>   \n\n  </ion-content>'/*ion-inline-end:"C:\Users\Junyong\Bash\Inflearn_Ionic\src\pages\action-sheet\action-sheet.html"*/ //"action-sheet page가 이 html파일을 쓰겠다"
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"C:\Users\여경\Documents\Inflearn\src\pages\action-sheet\action-sheet.html"*/'<ion-header>\n\n    <ion-navbar>   <!-- navigation이 가능한 header bar라는 것. -->\n\n      <button ion-button menuToggle>  <!--이 버튼을 눌렀을 때 sidemenu를 띄울 수 있게 됨. 여기서 \'menuToggle\'이 없으면 menu가 한 번만 가능함..sidemenu를 계속 사용하려면 menuToggle 써주어야 한다. -->\n\n        <ion-icon name="menu"></ion-icon>\n\n      </button>\n\n      <ion-title>ActionSheetPage</ion-title>\n\n    </ion-navbar>\n\n  </ion-header>\n\n\n\n  <ion-content padding>\n\n    <input [(ngModel)]="name" />\n\n    <p>Hello, {{name}}</p>\n\n    <p *ngIf="name != \' \'">Welcome!</p>\n\n      <button ion-button block (click)="presentActionSheet()">  <!-- \'block\'은 좌우로 화면 꽉차게 버튼이 보여지게 하는 걸 의미. 그런데 이렇게만 하면 좌우로 너무 꽉차기 때문에 ion-content에 \'padding\'을 해주면 된다. -->\n\n          Show Action Sheet\n\n      </button>   \n\n  </ion-content>'/*ion-inline-end:"C:\Users\여경\Documents\Inflearn\src\pages\action-sheet\action-sheet.html"*/ //"action-sheet page가 이 html파일을 쓰겠다"
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* ActionSheetController */]])
     ], ActionSheetPage);
@@ -97,13 +97,13 @@ var ActionSheetPage = (function () {
 
 /***/ }),
 
-/***/ 200:
+/***/ 237:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AlertPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(13);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -186,7 +186,7 @@ var AlertPage = (function () {
     AlertPage.prototype.showCheckboxAlert = function () {
     };
     AlertPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"C:\Users\Junyong\Bash\Inflearn_Ionic\src\pages\alert\alert.html"*/'<ion-header>\n\n        <ion-navbar>\n\n          <button ion-button menuToggle>\n\n            <ion-icon name="menu"></ion-icon>\n\n          </button>\n\n          <ion-title>Alert Page</ion-title>\n\n        </ion-navbar>\n\n      </ion-header>\n\n\n\n    <ion-content padding>\n\n        <button ion-button block (click)="showBasicAlert()">Show Basic Alert</button>\n\n        <button ion-button block (click)="showPromptAlert()">Show Prompt Alert</button>\n\n        <button ion-button block (click)="showConfirmationAlert()">Show Confirmation Alert</button>\n\n        <button ion-button block (click)="showRadioAlert()">Show Radio Alert</button>\n\n        <button ion-button block (click)="showCheckboxAlert()">Show Checkbox Alert</button>\n\n    </ion-content>'/*ion-inline-end:"C:\Users\Junyong\Bash\Inflearn_Ionic\src\pages\alert\alert.html"*/
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"C:\Users\여경\Documents\Inflearn\src\pages\alert\alert.html"*/'<ion-header>\n\n        <ion-navbar>\n\n          <button ion-button menuToggle>\n\n            <ion-icon name="menu"></ion-icon>\n\n          </button>\n\n          <ion-title>Alert Page</ion-title>\n\n        </ion-navbar>\n\n      </ion-header>\n\n\n\n    <ion-content padding>\n\n        <button ion-button block (click)="showBasicAlert()">Show Basic Alert</button>\n\n        <button ion-button block (click)="showPromptAlert()">Show Prompt Alert</button>\n\n        <button ion-button block (click)="showConfirmationAlert()">Show Confirmation Alert</button>\n\n        <button ion-button block (click)="showRadioAlert()">Show Radio Alert</button>\n\n        <button ion-button block (click)="showCheckboxAlert()">Show Checkbox Alert</button>\n\n    </ion-content>'/*ion-inline-end:"C:\Users\여경\Documents\Inflearn\src\pages\alert\alert.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* AlertController */]])
     ], AlertPage);
@@ -197,7 +197,7 @@ var AlertPage = (function () {
 
 /***/ }),
 
-/***/ 201:
+/***/ 238:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -217,7 +217,7 @@ var ButtonPage = (function () {
     function ButtonPage() {
     }
     ButtonPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"C:\Users\Junyong\Bash\Inflearn_Ionic\src\pages\button\button.html"*/'<ion-header>\n\n    <ion-navbar>   <!-- navigation이 가능한 header bar라는 것. -->\n\n      <button ion-button menuToggle>  <!--이 버튼을 눌렀을 때 sidemenu를 띄울 수 있게 됨. 여기서 \'menuToggle\'이 없으면 menu가 한 번만 가능함..sidemenu를 계속 사용하려면 menuToggle 써주어야 한다. -->\n\n        <ion-icon name="menu"></ion-icon>\n\n      </button>\n\n      <ion-title>Button Page</ion-title>\n\n      <ion-buttons end>    \n\n        <button ion-button icon-only>\n\n          <ion-icon name=\'search\'></ion-icon>\n\n        </button>\n\n      </ion-buttons>\n\n    </ion-navbar>\n\n  </ion-header>\n\n\n\n  <ion-content padding>\n\n    <ion-card>\n\n      <ion-card-content> \n\n        <!--여기에 img를 추가할 수 있다 -->\n\n      </ion-card-content> \n\n      <ion-item>\n\n        <button ion-button clear item-left>Like</button>    <!--글자만 있는 버튼이기에 \'clear\'를 적어준다 alignment도 해줌. -->\n\n      </ion-item>\n\n      <ion-item>\n\n        <button ion-button clear item-right>Comment</button>\n\n      </ion-item>\n\n    </ion-card>\n\n    <ion-list>\n\n      <ion-item>\n\n        Inner Button\n\n        <button ion-button outline item-right>OutLine</button>\n\n      </ion-item>\n\n      <ion-item>\n\n        Left Icon Button\n\n        <button ion-button outline item-right icon-left>\n\n          Left Icon\n\n          <ion-icon name=\'star\'></ion-icon>\n\n        </button>\n\n      </ion-item>\n\n      <ion-item>\n\n        Right Icon Button\n\n        <button ion-button outline item-right icon-right>\n\n          Right Icon\n\n          <ion-icon name=\'star\'></ion-icon>\n\n        </button>\n\n      </ion-item>\n\n    </ion-list>\n\n\n\n  </ion-content>'/*ion-inline-end:"C:\Users\Junyong\Bash\Inflearn_Ionic\src\pages\button\button.html"*/
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"C:\Users\여경\Documents\Inflearn\src\pages\button\button.html"*/'<ion-header>\n\n    <ion-navbar>   <!-- navigation이 가능한 header bar라는 것. -->\n\n      <button ion-button menuToggle>  <!--이 버튼을 눌렀을 때 sidemenu를 띄울 수 있게 됨. 여기서 \'menuToggle\'이 없으면 menu가 한 번만 가능함..sidemenu를 계속 사용하려면 menuToggle 써주어야 한다. -->\n\n        <ion-icon name="menu"></ion-icon>\n\n      </button>\n\n      <ion-title>Button Page</ion-title>\n\n      <ion-buttons end>    \n\n        <button ion-button icon-only>\n\n          <ion-icon name=\'search\'></ion-icon>\n\n        </button>\n\n      </ion-buttons>\n\n    </ion-navbar>\n\n  </ion-header>\n\n\n\n  <ion-content padding>\n\n    <ion-card>\n\n      <ion-card-content> \n\n        <!--여기에 img를 추가할 수 있다 -->\n\n      </ion-card-content> \n\n      <ion-item>\n\n        <button ion-button clear item-left>Like</button>    <!--글자만 있는 버튼이기에 \'clear\'를 적어준다 alignment도 해줌. -->\n\n      </ion-item>\n\n      <ion-item>\n\n        <button ion-button clear item-right>Comment</button>\n\n      </ion-item>\n\n    </ion-card>\n\n    <ion-list>\n\n      <ion-item>\n\n        Inner Button\n\n        <button ion-button outline item-right>OutLine</button>\n\n      </ion-item>\n\n      <ion-item>\n\n        Left Icon Button\n\n        <button ion-button outline item-right icon-left>\n\n          Left Icon\n\n          <ion-icon name=\'star\'></ion-icon>\n\n        </button>\n\n      </ion-item>\n\n      <ion-item>\n\n        Right Icon Button\n\n        <button ion-button outline item-right icon-right>\n\n          Right Icon\n\n          <ion-icon name=\'star\'></ion-icon>\n\n        </button>\n\n      </ion-item>\n\n    </ion-list>\n\n\n\n  </ion-content>'/*ion-inline-end:"C:\Users\여경\Documents\Inflearn\src\pages\button\button.html"*/
         }),
         __metadata("design:paramtypes", [])
     ], ButtonPage);
@@ -228,15 +228,15 @@ var ButtonPage = (function () {
 
 /***/ }),
 
-/***/ 202:
+/***/ 239:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CardPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__bg_cards_bg_cards__ = __webpack_require__(203);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__social_cards_social_cards__ = __webpack_require__(204);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__bg_cards_bg_cards__ = __webpack_require__(240);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__social_cards_social_cards__ = __webpack_require__(241);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -261,7 +261,7 @@ var CardPage = (function () {
         this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__social_cards_social_cards__["a" /* SocialCardsPage */]);
     };
     CardPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"C:\Users\Junyong\Bash\Inflearn_Ionic\src\pages\card\card.html"*/'<ion-header>\n\n    <ion-navbar>\n\n      <button ion-button menuToggle>\n\n        <ion-icon name="menu"></ion-icon>\n\n      </button>\n\n      <ion-title>Card</ion-title>\n\n    </ion-navbar>\n\n  </ion-header>\n\n  \n\n  <ion-content padding>\n\n    <button ion-button block (click)="openBackgroundImageCardPage()"> \n\n      Background Image Cards\n\n    </button>\n\n    <button ion-button block (click)="openSocialCardPage()">\n\n      Social Cards \n\n    </button>\n\n  </ion-content>\n\n  '/*ion-inline-end:"C:\Users\Junyong\Bash\Inflearn_Ionic\src\pages\card\card.html"*/
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"C:\Users\여경\Documents\Inflearn\src\pages\card\card.html"*/'<ion-header>\n\n    <ion-navbar>\n\n      <button ion-button menuToggle>\n\n        <ion-icon name="menu"></ion-icon>\n\n      </button>\n\n      <ion-title>Card</ion-title>\n\n    </ion-navbar>\n\n  </ion-header>\n\n  \n\n  <ion-content padding>\n\n    <button ion-button block (click)="openBackgroundImageCardPage()"> \n\n      Background Image Cards\n\n    </button>\n\n    <button ion-button block (click)="openSocialCardPage()">\n\n      Social Cards \n\n    </button>\n\n  </ion-content>\n\n  '/*ion-inline-end:"C:\Users\여경\Documents\Inflearn\src\pages\card\card.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */]])
     ], CardPage);
@@ -272,7 +272,7 @@ var CardPage = (function () {
 
 /***/ }),
 
-/***/ 203:
+/***/ 240:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -292,7 +292,7 @@ var BackgroundImageCardsPage = (function () {
     function BackgroundImageCardsPage() {
     }
     BackgroundImageCardsPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"C:\Users\Junyong\Bash\Inflearn_Ionic\src\pages\card\bg-cards\bg-cards.html"*/'<ion-header>\n\n    <ion-navbar>\n\n      <button ion-button menuToggle>\n\n        <ion-icon name="menu"></ion-icon>\n\n      </button>\n\n      <ion-title>Background Card</ion-title>\n\n    </ion-navbar>\n\n  </ion-header>\n\n  \n\n  <ion-content class="card-background-page">\n\n    <ion-card>\n\n      <img src="assets/imgs/card-saopaolo.png" />\n\n      <div class="card-title">Sao Paulo</div>\n\n      <div class="card-subtitle">41 Listings</div>\n\n\n\n    </ion-card>\n\n  </ion-content>'/*ion-inline-end:"C:\Users\Junyong\Bash\Inflearn_Ionic\src\pages\card\bg-cards\bg-cards.html"*/
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"C:\Users\여경\Documents\Inflearn\src\pages\card\bg-cards\bg-cards.html"*/'<ion-header>\n\n    <ion-navbar>\n\n      <button ion-button menuToggle>\n\n        <ion-icon name="menu"></ion-icon>\n\n      </button>\n\n      <ion-title>Background Card</ion-title>\n\n    </ion-navbar>\n\n  </ion-header>\n\n  \n\n  <ion-content class="card-background-page">\n\n    <ion-card>\n\n      <img src="assets/imgs/card-saopaolo.png" />\n\n      <div class="card-title">Sao Paulo</div>\n\n      <div class="card-subtitle">41 Listings</div>\n\n\n\n    </ion-card>\n\n  </ion-content>'/*ion-inline-end:"C:\Users\여경\Documents\Inflearn\src\pages\card\bg-cards\bg-cards.html"*/
         }),
         __metadata("design:paramtypes", [])
     ], BackgroundImageCardsPage);
@@ -303,7 +303,7 @@ var BackgroundImageCardsPage = (function () {
 
 /***/ }),
 
-/***/ 204:
+/***/ 241:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -323,7 +323,7 @@ var SocialCardsPage = (function () {
     function SocialCardsPage() {
     }
     SocialCardsPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"C:\Users\Junyong\Bash\Inflearn_Ionic\src\pages\card\social-cards\social-cards.html"*/'<ion-header>\n\n    <ion-navbar>\n\n      <button ion-button menuToggle>\n\n        <ion-icon name="menu"></ion-icon>\n\n      </button>\n\n      <ion-title>Social Card</ion-title>\n\n    </ion-navbar>\n\n  </ion-header>\n\n  \n\n  <ion-content padding>\n\n    <ion-card>\n\n      <ion-item>\n\n        <ion-avatar>\n\n          <img src="assets/imgs/Junyong.jpg"/>   <!--post한 사람의 이미지 여기에 추가 -->\n\n        </ion-avatar>\n\n        <h2>Junyong</h2>\n\n        <p>January 3,2018</p>\n\n      </ion-item>\n\n\n\n    <img src="assets/imgs/card-amsterdam.png"/>    <!--카드의 메인 이미지 삽입 -->\n\n    <ion-card-content>\n\n      <p>This is my first card practice!</p>\n\n    </ion-card-content>\n\n\n\n    <ion-row>\n\n      <ion-col>\n\n        <button ion-button icon-left clear small color="primary">\n\n          <ion-icon name="thumbs-up"></ion-icon>\n\n          <div>n Likes</div>\n\n        </button>\n\n      </ion-col>\n\n      <ion-col>\n\n        <button ion-button icon-left clear small color="primary">\n\n          <ion-icon name="text"></ion-icon>\n\n          <div>4 comments</div>\n\n        </button>\n\n      </ion-col>\n\n      <ion-col center text-center>\n\n        <ion-note>\n\n          11h ago\n\n        </ion-note>\n\n        </ion-col>\n\n    </ion-row>\n\n    </ion-card>\n\n\n\n  </ion-content>'/*ion-inline-end:"C:\Users\Junyong\Bash\Inflearn_Ionic\src\pages\card\social-cards\social-cards.html"*/
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"C:\Users\여경\Documents\Inflearn\src\pages\card\social-cards\social-cards.html"*/'<ion-header>\n\n    <ion-navbar>\n\n      <button ion-button menuToggle>\n\n        <ion-icon name="menu"></ion-icon>\n\n      </button>\n\n      <ion-title>Social Card</ion-title>\n\n    </ion-navbar>\n\n  </ion-header>\n\n  \n\n  <ion-content padding>\n\n    <ion-card>\n\n      <ion-item>\n\n        <ion-avatar>\n\n          <img src="assets/imgs/Junyong.jpg"/>   <!--post한 사람의 이미지 여기에 추가 -->\n\n        </ion-avatar>\n\n        <h2>Junyong</h2>\n\n        <p>January 3,2018</p>\n\n      </ion-item>\n\n\n\n    <img src="assets/imgs/card-amsterdam.png"/>    <!--카드의 메인 이미지 삽입 -->\n\n    <ion-card-content>\n\n      <p>This is my first card practice!</p>\n\n    </ion-card-content>\n\n\n\n    <ion-row>\n\n      <ion-col>\n\n        <button ion-button icon-left clear small color="primary">\n\n          <ion-icon name="thumbs-up"></ion-icon>\n\n          <div>n Likes</div>\n\n        </button>\n\n      </ion-col>\n\n      <ion-col>\n\n        <button ion-button icon-left clear small color="primary">\n\n          <ion-icon name="text"></ion-icon>\n\n          <div>4 comments</div>\n\n        </button>\n\n      </ion-col>\n\n      <ion-col center text-center>\n\n        <ion-note>\n\n          11h ago\n\n        </ion-note>\n\n        </ion-col>\n\n    </ion-row>\n\n    </ion-card>\n\n\n\n  </ion-content>'/*ion-inline-end:"C:\Users\여경\Documents\Inflearn\src\pages\card\social-cards\social-cards.html"*/
         }),
         __metadata("design:paramtypes", [])
     ], SocialCardsPage);
@@ -334,7 +334,7 @@ var SocialCardsPage = (function () {
 
 /***/ }),
 
-/***/ 205:
+/***/ 242:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -356,7 +356,7 @@ var DatetimePage = (function () {
         this.startTime = '07:43';
     }
     DatetimePage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"C:\Users\Junyong\Bash\Inflearn_Ionic\src\pages\datetime\datetime.html"*/'<ion-header>\n\n    <ion-navbar>\n\n        <button ion-button menuToggle>\n\n            <ion-icon name="menu"></ion-icon>\n\n        </button>\n\n        <ion-title>Datetime Page</ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content class="outer-content">  <!--outer-content는 기본적으로 마련되어 있는 css클래스 -->\n\n    <ion-list>\n\n        <ion-item>\n\n            <ion-input placeholder="Title"></ion-input>\n\n        </ion-item>        \n\n        <ion-item>\n\n            <ion-input placeholder="Location"></ion-input>\n\n        </ion-item>\n\n    </ion-list>\n\n    <ion-list>\n\n        <ion-item>\n\n            <ion-label>Start Date</ion-label>\n\n            <ion-datetime displayFormat="MMM DD YYYY" pickerFormat="MMM DD YYYY" [(ngModel)]="startDate"></ion-datetime>\n\n        </ion-item>\n\n        <ion-item>\n\n            <ion-label>Start Time</ion-label>\n\n            <ion-datetime displayFormat="h:mm A" pickerFormat="h mm A" [(ngModel)]="startTime"></ion-datetime>\n\n        </ion-item>\n\n        <button ion-item>\n\n            <ion-label>Repeat</ion-label>\n\n            <ion-note item-right>Never</ion-note>\n\n        </button>\n\n    </ion-list>\n\n    <ion-list>\n\n        <ion-item>\n\n            <ion-label>Alert</ion-label>\n\n            <ion-note item-right>None</ion-note>\n\n        </ion-item>\n\n    </ion-list>\n\n\n\n</ion-content>'/*ion-inline-end:"C:\Users\Junyong\Bash\Inflearn_Ionic\src\pages\datetime\datetime.html"*/,
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"C:\Users\여경\Documents\Inflearn\src\pages\datetime\datetime.html"*/'<ion-header>\n\n    <ion-navbar>\n\n        <button ion-button menuToggle>\n\n            <ion-icon name="menu"></ion-icon>\n\n        </button>\n\n        <ion-title>Datetime Page</ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content class="outer-content">  <!--outer-content는 기본적으로 마련되어 있는 css클래스 -->\n\n    <ion-list>\n\n        <ion-item>\n\n            <ion-input placeholder="Title"></ion-input>\n\n        </ion-item>        \n\n        <ion-item>\n\n            <ion-input placeholder="Location"></ion-input>\n\n        </ion-item>\n\n    </ion-list>\n\n    <ion-list>\n\n        <ion-item>\n\n            <ion-label>Start Date</ion-label>\n\n            <ion-datetime displayFormat="MMM DD YYYY" pickerFormat="MMM DD YYYY" [(ngModel)]="startDate"></ion-datetime>\n\n        </ion-item>\n\n        <ion-item>\n\n            <ion-label>Start Time</ion-label>\n\n            <ion-datetime displayFormat="h:mm A" pickerFormat="h mm A" [(ngModel)]="startTime"></ion-datetime>\n\n        </ion-item>\n\n        <button ion-item>\n\n            <ion-label>Repeat</ion-label>\n\n            <ion-note item-right>Never</ion-note>\n\n        </button>\n\n    </ion-list>\n\n    <ion-list>\n\n        <ion-item>\n\n            <ion-label>Alert</ion-label>\n\n            <ion-note item-right>None</ion-note>\n\n        </ion-item>\n\n    </ion-list>\n\n\n\n</ion-content>'/*ion-inline-end:"C:\Users\여경\Documents\Inflearn\src\pages\datetime\datetime.html"*/,
             selector: 'page-datetime'
         }),
         __metadata("design:paramtypes", [])
@@ -368,7 +368,7 @@ var DatetimePage = (function () {
 
 /***/ }),
 
-/***/ 206:
+/***/ 243:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -388,7 +388,7 @@ var FabPage = (function () {
     function FabPage() {
     }
     FabPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"C:\Users\Junyong\Bash\Inflearn_Ionic\src\pages\fab\fab.html"*/'<ion-header>\n\n        <ion-navbar>\n\n            <button ion-button menuToggle>\n\n                <ion-icon name="menu"></ion-icon>\n\n            </button>\n\n            <ion-title>Fab Page</ion-title>\n\n        </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content>\n\n    <ion-fab center middle>\n\n        <button ion-fab color="danger">\n\n            <ion-icon name="md-share"></ion-icon>\n\n        </button>\n\n        <ion-fab-list side="top">\n\n            <button ion-fab color="primary"><ion-icon name="logo-vimeo"></ion-icon></button>\n\n        </ion-fab-list>\n\n        <ion-fab-list side="bottom">\n\n            <button ion-fab color="secondary"><ion-icon name="logo-google"></ion-icon></button>\n\n        </ion-fab-list>\n\n        <ion-fab-list side="left">\n\n            <button ion-fab color="light"><ion-icon name="logo-twitter"></ion-icon></button>\n\n        </ion-fab-list>\n\n        <ion-fab-list side="right">\n\n            <button ion-fab color="dark"><ion-icon name="logo-facebook"></ion-icon></button>\n\n        </ion-fab-list>\n\n    </ion-fab>\n\n\n\n    <ion-fab top right edge>\n\n            <button ion-fab mini><ion-icon name="add"></ion-icon></button>\n\n            <ion-fab-list>\n\n              <button ion-fab><ion-icon name="logo-facebook"></ion-icon></button>\n\n              <button ion-fab><ion-icon name="logo-twitter"></ion-icon></button>\n\n              <button ion-fab><ion-icon name="logo-vimeo"></ion-icon></button>\n\n              <button ion-fab><ion-icon name="logo-googleplus"></ion-icon></button>\n\n            </ion-fab-list>\n\n          </ion-fab>\n\n        \n\n          <ion-fab right bottom>\n\n            <button ion-fab color="light"><ion-icon name="arrow-dropleft"></ion-icon></button>\n\n            <ion-fab-list side="left">\n\n              <button ion-fab><ion-icon name="logo-facebook"></ion-icon></button>\n\n              <button ion-fab><ion-icon name="logo-twitter"></ion-icon></button>\n\n              <button ion-fab><ion-icon name="logo-vimeo"></ion-icon></button>\n\n              <button ion-fab><ion-icon name="logo-googleplus"></ion-icon></button>\n\n            </ion-fab-list>\n\n          </ion-fab>\n\n</ion-content>'/*ion-inline-end:"C:\Users\Junyong\Bash\Inflearn_Ionic\src\pages\fab\fab.html"*/
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"C:\Users\여경\Documents\Inflearn\src\pages\fab\fab.html"*/'<ion-header>\n\n        <ion-navbar>\n\n            <button ion-button menuToggle>\n\n                <ion-icon name="menu"></ion-icon>\n\n            </button>\n\n            <ion-title>Fab Page</ion-title>\n\n        </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content>\n\n    <ion-fab center middle>\n\n        <button ion-fab color="danger">\n\n            <ion-icon name="md-share"></ion-icon>\n\n        </button>\n\n        <ion-fab-list side="top">\n\n            <button ion-fab color="primary"><ion-icon name="logo-vimeo"></ion-icon></button>\n\n        </ion-fab-list>\n\n        <ion-fab-list side="bottom">\n\n            <button ion-fab color="secondary"><ion-icon name="logo-google"></ion-icon></button>\n\n        </ion-fab-list>\n\n        <ion-fab-list side="left">\n\n            <button ion-fab color="light"><ion-icon name="logo-twitter"></ion-icon></button>\n\n        </ion-fab-list>\n\n        <ion-fab-list side="right">\n\n            <button ion-fab color="dark"><ion-icon name="logo-facebook"></ion-icon></button>\n\n        </ion-fab-list>\n\n    </ion-fab>\n\n\n\n    <ion-fab top right edge>\n\n            <button ion-fab mini><ion-icon name="add"></ion-icon></button>\n\n            <ion-fab-list>\n\n              <button ion-fab><ion-icon name="logo-facebook"></ion-icon></button>\n\n              <button ion-fab><ion-icon name="logo-twitter"></ion-icon></button>\n\n              <button ion-fab><ion-icon name="logo-vimeo"></ion-icon></button>\n\n              <button ion-fab><ion-icon name="logo-googleplus"></ion-icon></button>\n\n            </ion-fab-list>\n\n          </ion-fab>\n\n        \n\n          <ion-fab right bottom>\n\n            <button ion-fab color="light"><ion-icon name="arrow-dropleft"></ion-icon></button>\n\n            <ion-fab-list side="left">\n\n              <button ion-fab><ion-icon name="logo-facebook"></ion-icon></button>\n\n              <button ion-fab><ion-icon name="logo-twitter"></ion-icon></button>\n\n              <button ion-fab><ion-icon name="logo-vimeo"></ion-icon></button>\n\n              <button ion-fab><ion-icon name="logo-googleplus"></ion-icon></button>\n\n            </ion-fab-list>\n\n          </ion-fab>\n\n</ion-content>'/*ion-inline-end:"C:\Users\여경\Documents\Inflearn\src\pages\fab\fab.html"*/
         }),
         __metadata("design:paramtypes", [])
     ], FabPage);
@@ -399,14 +399,14 @@ var FabPage = (function () {
 
 /***/ }),
 
-/***/ 207:
+/***/ 244:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return InputPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__success_success__ = __webpack_require__(208);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__success_success__ = __webpack_require__(245);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -439,7 +439,7 @@ var InputPage = (function () {
         this.labelColor = "secondary";
     };
     InputPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"C:\Users\Junyong\Bash\Inflearn_Ionic\src\pages\input\input.html"*/'<ion-header>\n\n    <ion-navbar>   <!-- navigation이 가능한 header bar라는 것. -->\n\n      <button ion-button menuToggle>  <!--이 버튼을 눌렀을 때 sidemenu를 띄울 수 있게 됨. 여기서 \'menuToggle\'이 없으면 menu가 한 번만 가능함..sidemenu를 계속 사용하려면 menuToggle 써주어야 한다. -->\n\n        <ion-icon name="menu"></ion-icon>\n\n      </button>\n\n      <ion-title>Input Page</ion-title>\n\n    </ion-navbar>\n\n  </ion-header>\n\n\n\n  <ion-content>\n\n      <ion-list>\n\n          <ion-item>\n\n              <ion-label color="{{labelColor}}" floating>Username</ion-label>\n\n              <ion-input type="text" [(ngModel)]="username" (blur)="doBlur()" (focus)="doFocus()"></ion-input>\n\n          </ion-item>\n\n          <ion-item>\n\n              <ion-label floating>Password</ion-label>\n\n              <ion-input type="password" [(ngModel)]="password"></ion-input>\n\n          </ion-item>\n\n      </ion-list>\n\n      <button ion-button block (click)="signIn()">Sign In</button>\n\n  </ion-content>'/*ion-inline-end:"C:\Users\Junyong\Bash\Inflearn_Ionic\src\pages\input\input.html"*/
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"C:\Users\여경\Documents\Inflearn\src\pages\input\input.html"*/'<ion-header>\n\n    <ion-navbar>   <!-- navigation이 가능한 header bar라는 것. -->\n\n      <button ion-button menuToggle>  <!--이 버튼을 눌렀을 때 sidemenu를 띄울 수 있게 됨. 여기서 \'menuToggle\'이 없으면 menu가 한 번만 가능함..sidemenu를 계속 사용하려면 menuToggle 써주어야 한다. -->\n\n        <ion-icon name="menu"></ion-icon>\n\n      </button>\n\n      <ion-title>Input Page</ion-title>\n\n    </ion-navbar>\n\n  </ion-header>\n\n\n\n  <ion-content>\n\n      <ion-list>\n\n          <ion-item>\n\n              <ion-label color="{{labelColor}}" floating>Username</ion-label>\n\n              <ion-input type="text" [(ngModel)]="username" (blur)="doBlur()" (focus)="doFocus()"></ion-input>\n\n          </ion-item>\n\n          <ion-item>\n\n              <ion-label floating>Password</ion-label>\n\n              <ion-input type="password" [(ngModel)]="password"></ion-input>\n\n          </ion-item>\n\n      </ion-list>\n\n      <button ion-button block (click)="signIn()">Sign In</button>\n\n  </ion-content>'/*ion-inline-end:"C:\Users\여경\Documents\Inflearn\src\pages\input\input.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */]])
     ], InputPage);
@@ -450,13 +450,13 @@ var InputPage = (function () {
 
 /***/ }),
 
-/***/ 208:
+/***/ 245:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SuccessPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(13);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -479,7 +479,7 @@ var SuccessPage = (function () {
         console.log(this.password);
     }
     SuccessPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"C:\Users\Junyong\Bash\Inflearn_Ionic\src\pages\input\success\success.html"*/'<ion-header>\n\n        <ion-navbar>\n\n            <button ion-button menuToggle>\n\n                <ion-icon name="menu"></ion-icon>\n\n            </button>\n\n            <ion-title>Success Page {{username}}</ion-title>\n\n        </ion-navbar>\n\n    </ion-header>\n\n\n\n<ion-content>\n\n    {{username}} logged in!\n\n</ion-content>'/*ion-inline-end:"C:\Users\Junyong\Bash\Inflearn_Ionic\src\pages\input\success\success.html"*/
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"C:\Users\여경\Documents\Inflearn\src\pages\input\success\success.html"*/'<ion-header>\n\n        <ion-navbar>\n\n            <button ion-button menuToggle>\n\n                <ion-icon name="menu"></ion-icon>\n\n            </button>\n\n            <ion-title>Success Page {{username}}</ion-title>\n\n        </ion-navbar>\n\n    </ion-header>\n\n\n\n<ion-content>\n\n    {{username}} logged in!\n\n</ion-content>'/*ion-inline-end:"C:\Users\여경\Documents\Inflearn\src\pages\input\success\success.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */]])
     ], SuccessPage);
@@ -490,15 +490,15 @@ var SuccessPage = (function () {
 
 /***/ }),
 
-/***/ 209:
+/***/ 246:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ListPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__models_person__ = __webpack_require__(300);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(11);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__detail_detail__ = __webpack_require__(210);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__models_person__ = __webpack_require__(382);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__detail_detail__ = __webpack_require__(247);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -528,7 +528,7 @@ var ListPage = (function () {
         });
     };
     ListPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"C:\Users\Junyong\Bash\Inflearn_Ionic\src\pages\lists\lists.html"*/'<ion-header>\n\n    <ion-navbar>\n\n      <button ion-button menuToggle>\n\n        <ion-icon name="menu"></ion-icon>\n\n      </button>\n\n      <ion-title>List Page</ion-title>\n\n    </ion-navbar>\n\n  </ion-header>\n\n\n\n<ion-content class="outer-content">\n\n    <ion-list>\n\n        <ion-list-header>BUSTERS</ion-list-header>\n\n        <ion-item-sliding *ngFor="let person of persons">\n\n            <ion-item>\n\n                <ion-avatar item-left>\n\n                    <img src="{{person.avatar}}"/>\n\n                </ion-avatar>\n\n                <h2>{{person.name}}</h2>\n\n                <p>{{person.detail}}</p>\n\n            </ion-item>\n\n            <ion-item-options>\n\n                <button ion-button color="light" (click)="openDetailPage(person)">\n\n                    <ion-icon name="ios-more"></ion-icon>\n\n                    More\n\n                </button>\n\n                <button ion-button color="primary">\n\n                    <ion-icon name="text"></ion-icon>\n\n                    Text\n\n                </button>\n\n                <button ion-button color="secondary">\n\n                    <ion-icon name="call"></ion-icon>\n\n                    Call\n\n                </button>\n\n            </ion-item-options>\n\n        </ion-item-sliding>\n\n    </ion-list>\n\n</ion-content>'/*ion-inline-end:"C:\Users\Junyong\Bash\Inflearn_Ionic\src\pages\lists\lists.html"*/
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"C:\Users\여경\Documents\Inflearn\src\pages\lists\lists.html"*/'<ion-header>\n\n    <ion-navbar>\n\n      <button ion-button menuToggle>\n\n        <ion-icon name="menu"></ion-icon>\n\n      </button>\n\n      <ion-title>List Page</ion-title>\n\n    </ion-navbar>\n\n  </ion-header>\n\n\n\n<ion-content class="outer-content">\n\n    <ion-list>\n\n        <ion-list-header>BUSTERS</ion-list-header>\n\n        <ion-item-sliding *ngFor="let person of persons">\n\n            <ion-item>\n\n                <ion-avatar item-left>\n\n                    <img src="{{person.avatar}}"/>\n\n                </ion-avatar>\n\n                <h2>{{person.name}}</h2>\n\n                <p>{{person.detail}}</p>\n\n            </ion-item>\n\n            <ion-item-options>\n\n                <button ion-button color="light" (click)="openDetailPage(person)">\n\n                    <ion-icon name="ios-more"></ion-icon>\n\n                    More\n\n                </button>\n\n                <button ion-button color="primary">\n\n                    <ion-icon name="text"></ion-icon>\n\n                    Text\n\n                </button>\n\n                <button ion-button color="secondary">\n\n                    <ion-icon name="call"></ion-icon>\n\n                    Call\n\n                </button>\n\n            </ion-item-options>\n\n        </ion-item-sliding>\n\n    </ion-list>\n\n</ion-content>'/*ion-inline-end:"C:\Users\여경\Documents\Inflearn\src\pages\lists\lists.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2_ionic_angular__["i" /* NavController */]])
     ], ListPage);
@@ -539,13 +539,13 @@ var ListPage = (function () {
 
 /***/ }),
 
-/***/ 210:
+/***/ 247:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return DetailPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(13);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -565,7 +565,7 @@ var DetailPage = (function () {
         this.detail = this.navParams.get("detail");
     }
     DetailPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"C:\Users\Junyong\Bash\Inflearn_Ionic\src\pages\lists\detail\detail.html"*/'<ion-header>\n\n    <ion-navbar>\n\n      <button ion-button menuToggle>\n\n        <ion-icon name="menu"></ion-icon>\n\n      </button>\n\n      <ion-title>Detail Page</ion-title>\n\n    </ion-navbar>\n\n  </ion-header>\n\n\n\n<ion-content>\n\n  <ion-item no-lines>\n\n    <ion-avatar item-left>\n\n      <img style="width:70px; height:70px;" src="{{profileImage}}" />\n\n    </ion-avatar>\n\n    <h1>{{name}}</h1>\n\n  </ion-item>\n\n  <ion-item no-lines> \n\n    <p>{{detail}}</p>\n\n  </ion-item>\n\n\n\n</ion-content>'/*ion-inline-end:"C:\Users\Junyong\Bash\Inflearn_Ionic\src\pages\lists\detail\detail.html"*/
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"C:\Users\여경\Documents\Inflearn\src\pages\lists\detail\detail.html"*/'<ion-header>\n\n    <ion-navbar>\n\n      <button ion-button menuToggle>\n\n        <ion-icon name="menu"></ion-icon>\n\n      </button>\n\n      <ion-title>Detail Page</ion-title>\n\n    </ion-navbar>\n\n  </ion-header>\n\n\n\n<ion-content>\n\n  <ion-item no-lines>\n\n    <ion-avatar item-left>\n\n      <img style="width:70px; height:70px;" src="{{profileImage}}" />\n\n    </ion-avatar>\n\n    <h1>{{name}}</h1>\n\n  </ion-item>\n\n  <ion-item no-lines> \n\n    <p>{{detail}}</p>\n\n  </ion-item>\n\n\n\n</ion-content>'/*ion-inline-end:"C:\Users\여경\Documents\Inflearn\src\pages\lists\detail\detail.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */]])
     ], DetailPage);
@@ -576,13 +576,13 @@ var DetailPage = (function () {
 
 /***/ }),
 
-/***/ 211:
+/***/ 248:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LoadingPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(13);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -646,7 +646,7 @@ var LoadingPage = (function () {
         });*/
     };
     LoadingPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"C:\Users\Junyong\Bash\Inflearn_Ionic\src\pages\loading\loading.html"*/'<ion-header>\n\n    <ion-navbar>\n\n      <button ion-button menuToggle>\n\n        <ion-icon name="menu"></ion-icon>\n\n      </button>\n\n      <ion-title>Loading Page</ion-title>\n\n    </ion-navbar>\n\n  </ion-header>\n\n\n\n  <ion-content class="outer-content">\n\n      <ion-list>\n\n          <button ion-item (click)="presentLoadingCircles()">\n\n              <ion-spinner item-left name="circles"></ion-spinner>\n\n              Loading Circles\n\n          </button>\n\n          <button ion-item (click)="presentLoadingBubbles()">\n\n                <ion-spinner item-left name="bubbles"></ion-spinner>\n\n                Loading Bubbles\n\n            </button>\n\n            <button ion-item (click)="presentLoadingCrescent()">\n\n                    <ion-spinner item-left name="crescent"></ion-spinner>\n\n                    Loading Cresent\n\n                </button>\n\n      </ion-list>\n\n      \n\n  </ion-content>\n\n'/*ion-inline-end:"C:\Users\Junyong\Bash\Inflearn_Ionic\src\pages\loading\loading.html"*/
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"C:\Users\여경\Documents\Inflearn\src\pages\loading\loading.html"*/'<ion-header>\n\n    <ion-navbar>\n\n      <button ion-button menuToggle>\n\n        <ion-icon name="menu"></ion-icon>\n\n      </button>\n\n      <ion-title>Loading Page</ion-title>\n\n    </ion-navbar>\n\n  </ion-header>\n\n\n\n  <ion-content class="outer-content">\n\n      <ion-list>\n\n          <button ion-item (click)="presentLoadingCircles()">\n\n              <ion-spinner item-left name="circles"></ion-spinner>\n\n              Loading Circles\n\n          </button>\n\n          <button ion-item (click)="presentLoadingBubbles()">\n\n                <ion-spinner item-left name="bubbles"></ion-spinner>\n\n                Loading Bubbles\n\n            </button>\n\n            <button ion-item (click)="presentLoadingCrescent()">\n\n                    <ion-spinner item-left name="crescent"></ion-spinner>\n\n                    Loading Cresent\n\n                </button>\n\n      </ion-list>\n\n      \n\n  </ion-content>\n\n'/*ion-inline-end:"C:\Users\여경\Documents\Inflearn\src\pages\loading\loading.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* LoadingController */]])
     ], LoadingPage);
@@ -657,16 +657,16 @@ var LoadingPage = (function () {
 
 /***/ }),
 
-/***/ 212:
+/***/ 249:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LoginPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__register_register__ = __webpack_require__(213);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_angularfire2_auth__ = __webpack_require__(100);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__home_home__ = __webpack_require__(223);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__register_register__ = __webpack_require__(250);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_angularfire2_auth__ = __webpack_require__(73);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__home_home__ = __webpack_require__(265);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -706,7 +706,7 @@ var LoginPage = (function () {
     };
     LoginPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-login',template:/*ion-inline-start:"C:\Users\Junyong\Bash\Inflearn_Ionic\src\pages\login\login.html"*/'<ion-header>\n\n    <ion-navbar>   <!-- navigation이 가능한 header bar라는 것. -->\n\n      <button ion-button menuToggle>  <!--이 버튼을 눌렀을 때 sidemenu를 띄울 수 있게 됨. 여기서 \'menuToggle\'이 없으면 menu가 한 번만 가능함..sidemenu를 계속 사용하려면 menuToggle 써주어야 한다. -->\n\n        <ion-icon name="menu"></ion-icon>\n\n      </button>\n\n      <ion-title>Login Page</ion-title>\n\n    </ion-navbar>\n\n  </ion-header>\n\n\n\n  <ion-content>\n\n      <ion-list>\n\n          <ion-item>\n\n              <ion-label color="{{labelColor}}" floating>Username</ion-label>\n\n              <ion-input type="text" [(ngModel)]="user.email" (blur)="doBlur()" (focus)="doFocus()"></ion-input>\n\n          </ion-item>\n\n          <ion-item>\n\n              <ion-label floating>Password</ion-label>\n\n              <ion-input type="password" [(ngModel)]="user.password"></ion-input>\n\n          </ion-item>\n\n      </ion-list>\n\n      <button ion-button block (click)="login(user)">Log in</button>\n\n      <button ion-button block (click)="register()">Register</button>"\n\n  </ion-content>'/*ion-inline-end:"C:\Users\Junyong\Bash\Inflearn_Ionic\src\pages\login\login.html"*/
+            selector: 'page-login',template:/*ion-inline-start:"C:\Users\여경\Documents\Inflearn\src\pages\login\login.html"*/'<ion-header>\n\n    <ion-navbar>   <!-- navigation이 가능한 header bar라는 것. -->\n\n      <button ion-button menuToggle>  <!--이 버튼을 눌렀을 때 sidemenu를 띄울 수 있게 됨. 여기서 \'menuToggle\'이 없으면 menu가 한 번만 가능함..sidemenu를 계속 사용하려면 menuToggle 써주어야 한다. -->\n\n        <ion-icon name="menu"></ion-icon>\n\n      </button>\n\n      <ion-title>Login Page</ion-title>\n\n    </ion-navbar>\n\n  </ion-header>\n\n\n\n  <ion-content>\n\n      <ion-list>\n\n          <ion-item>\n\n              <ion-label color="{{labelColor}}" floating>Username</ion-label>\n\n              <ion-input type="text" [(ngModel)]="user.email" (blur)="doBlur()" (focus)="doFocus()"></ion-input>\n\n          </ion-item>\n\n          <ion-item>\n\n              <ion-label floating>Password</ion-label>\n\n              <ion-input type="password" [(ngModel)]="user.password"></ion-input>\n\n          </ion-item>\n\n      </ion-list>\n\n      <button ion-button block (click)="login(user)">Log in</button>\n\n      <button ion-button block (click)="register()">Register</button>"\n\n  </ion-content>'/*ion-inline-end:"C:\Users\여경\Documents\Inflearn\src\pages\login\login.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_3_angularfire2_auth__["a" /* AngularFireAuth */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */]])
@@ -718,14 +718,14 @@ var LoginPage = (function () {
 
 /***/ }),
 
-/***/ 213:
+/***/ 250:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return RegisterPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_angularfire2_auth__ = __webpack_require__(100);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_angularfire2_auth__ = __webpack_require__(73);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -757,7 +757,7 @@ var RegisterPage = (function () {
     };
     RegisterPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-register',template:/*ion-inline-start:"C:\Users\Junyong\Bash\Inflearn_Ionic\src\pages\register\register.html"*/'<ion-header>\n\n    <ion-navbar>   <!-- navigation이 가능한 header bar라는 것. -->\n\n      <button ion-button menuToggle>  <!--이 버튼을 눌렀을 때 sidemenu를 띄울 수 있게 됨. 여기서 \'menuToggle\'이 없으면 menu가 한 번만 가능함..sidemenu를 계속 사용하려면 menuToggle 써주어야 한다. -->\n\n        <ion-icon name="menu"></ion-icon>\n\n      </button>\n\n      <ion-title>Register Page</ion-title>\n\n    </ion-navbar>\n\n  </ion-header>\n\n\n\n  <ion-content>\n\n      <ion-list>\n\n          <ion-item>\n\n              <ion-label color="{{labelColor}}" floating>Username</ion-label>\n\n              <ion-input type="text" [(ngModel)]="user.email" (blur)="doBlur()" (focus)="doFocus()"></ion-input>\n\n          </ion-item>\n\n          <ion-item>\n\n              <ion-label floating>Password</ion-label>\n\n              <ion-input type="password" [(ngModel)]="user.password"></ion-input>\n\n          </ion-item>\n\n      </ion-list>\n\n      <button ion-button block (click)="register(user)">Register</button>"\n\n  </ion-content>'/*ion-inline-end:"C:\Users\Junyong\Bash\Inflearn_Ionic\src\pages\register\register.html"*/
+            selector: 'page-register',template:/*ion-inline-start:"C:\Users\여경\Documents\Inflearn\src\pages\register\register.html"*/'<ion-header>\n\n    <ion-navbar>   <!-- navigation이 가능한 header bar라는 것. -->\n\n      <button ion-button menuToggle>  <!--이 버튼을 눌렀을 때 sidemenu를 띄울 수 있게 됨. 여기서 \'menuToggle\'이 없으면 menu가 한 번만 가능함..sidemenu를 계속 사용하려면 menuToggle 써주어야 한다. -->\n\n        <ion-icon name="menu"></ion-icon>\n\n      </button>\n\n      <ion-title>Register Page</ion-title>\n\n    </ion-navbar>\n\n  </ion-header>\n\n\n\n  <ion-content>\n\n      <ion-list>\n\n          <ion-item>\n\n              <ion-label color="{{labelColor}}" floating>Username</ion-label>\n\n              <ion-input type="text" [(ngModel)]="user.email" (blur)="doBlur()" (focus)="doFocus()"></ion-input>\n\n          </ion-item>\n\n          <ion-item>\n\n              <ion-label floating>Password</ion-label>\n\n              <ion-input type="password" [(ngModel)]="user.password"></ion-input>\n\n          </ion-item>\n\n      </ion-list>\n\n      <button ion-button block (click)="register(user)">Register</button>"\n\n  </ion-content>'/*ion-inline-end:"C:\Users\여경\Documents\Inflearn\src\pages\register\register.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2_angularfire2_auth__["a" /* AngularFireAuth */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */]])
@@ -769,13 +769,13 @@ var RegisterPage = (function () {
 
 /***/ }),
 
-/***/ 223:
+/***/ 265:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomePage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(13);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -793,7 +793,7 @@ var HomePage = (function () {
     }
     HomePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-home',template:/*ion-inline-start:"C:\Users\Junyong\Bash\Inflearn_Ionic\src\pages\home\home.html"*/'<ion-header>\n\n  <ion-navbar>\n\n    <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title>Home</ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content padding>\n\n  <h3>Welcome! Home Page</h3>\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\Junyong\Bash\Inflearn_Ionic\src\pages\home\home.html"*/
+            selector: 'page-home',template:/*ion-inline-start:"C:\Users\여경\Documents\Inflearn\src\pages\home\home.html"*/'<ion-header>\n\n  <ion-navbar>\n\n    <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title>Home</ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content padding>\n\n  <h3>Welcome! Home Page</h3>\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\여경\Documents\Inflearn\src\pages\home\home.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */]])
     ], HomePage);
@@ -804,14 +804,14 @@ var HomePage = (function () {
 
 /***/ }),
 
-/***/ 224:
+/***/ 266:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return ModalsPage; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ModalDetailPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(13);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -849,7 +849,7 @@ var ModalsPage = (function () {
     };
     ModalsPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-modals',template:/*ion-inline-start:"C:\Users\Junyong\Bash\Inflearn_Ionic\src\pages\modals\modals.html"*/'<ion-header>\n\n  <ion-navbar>   <!-- navigation이 가능한 header bar라는 것. -->\n\n    <button ion-button menuToggle>  <!--이 버튼을 눌렀을 때 sidemenu를 띄울 수 있게 됨. 여기서 \'menuToggle\'이 없으면 menu가 한 번만 가능함..sidemenu를 계속 사용하려면 menuToggle 써주어야 한다. -->\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title>Modals Page</ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n  <ion-content>\n\n    <ion-list>\n\n      <ion-item *ngFor="let email of emails" (click)="openModalPage(email)">\n\n        <h2>{{email.address}}</h2>\n\n        <p>{{email.body}}</p>\n\n      </ion-item>\n\n    </ion-list>\n\n  </ion-content>'/*ion-inline-end:"C:\Users\Junyong\Bash\Inflearn_Ionic\src\pages\modals\modals.html"*/,
+            selector: 'page-modals',template:/*ion-inline-start:"C:\Users\여경\Documents\Inflearn\src\pages\modals\modals.html"*/'<ion-header>\n\n  <ion-navbar>   <!-- navigation이 가능한 header bar라는 것. -->\n\n    <button ion-button menuToggle>  <!--이 버튼을 눌렀을 때 sidemenu를 띄울 수 있게 됨. 여기서 \'menuToggle\'이 없으면 menu가 한 번만 가능함..sidemenu를 계속 사용하려면 menuToggle 써주어야 한다. -->\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title>Modals Page</ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n  <ion-content>\n\n    <ion-list>\n\n      <ion-item *ngFor="let email of emails" (click)="openModalPage(email)">\n\n        <h2>{{email.address}}</h2>\n\n        <p>{{email.body}}</p>\n\n      </ion-item>\n\n    </ion-list>\n\n  </ion-content>'/*ion-inline-end:"C:\Users\여경\Documents\Inflearn\src\pages\modals\modals.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* ModalController */]])
     ], ModalsPage);
@@ -867,7 +867,7 @@ var ModalDetailPage = (function () {
         this.viewCtrl.dismiss();
     };
     ModalDetailPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"C:\Users\Junyong\Bash\Inflearn_Ionic\src\pages\modals\modaldetail.html"*/'<ion-header>\n\n    <ion-toolbar>\n\n      <ion-title>Detail</ion-title>\n\n      <ion-buttons start>\n\n        <button ion-button (click) = "dismiss()">\n\n          <span ion-text color="primary">Cancel</span>\n\n        </button>\n\n      </ion-buttons>\n\n    </ion-toolbar>\n\n  </ion-header>\n\n  <ion-content>\n\n    <h1>{{address}}></h1>\n\n    <p>{{body}}</p>\n\n  </ion-content>'/*ion-inline-end:"C:\Users\Junyong\Bash\Inflearn_Ionic\src\pages\modals\modaldetail.html"*/
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"C:\Users\여경\Documents\Inflearn\src\pages\modals\modaldetail.html"*/'<ion-header>\n\n    <ion-toolbar>\n\n      <ion-title>Detail</ion-title>\n\n      <ion-buttons start>\n\n        <button ion-button (click) = "dismiss()">\n\n          <span ion-text color="primary">Cancel</span>\n\n        </button>\n\n      </ion-buttons>\n\n    </ion-toolbar>\n\n  </ion-header>\n\n  <ion-content>\n\n    <h1>{{address}}></h1>\n\n    <p>{{body}}</p>\n\n  </ion-content>'/*ion-inline-end:"C:\Users\여경\Documents\Inflearn\src\pages\modals\modaldetail.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["m" /* ViewController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */]])
     ], ModalDetailPage);
@@ -878,17 +878,17 @@ var ModalDetailPage = (function () {
 
 /***/ }),
 
-/***/ 225:
+/***/ 267:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return DatabasePage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_angularfire2_auth__ = __webpack_require__(100);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular_navigation_nav_controller__ = __webpack_require__(23);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_ionic_angular__ = __webpack_require__(11);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_ionic_angular_navigation_nav_params__ = __webpack_require__(14);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_angularfire2_database__ = __webpack_require__(406);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_angularfire2_auth__ = __webpack_require__(73);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular_navigation_nav_controller__ = __webpack_require__(26);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_ionic_angular__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_ionic_angular_navigation_nav_params__ = __webpack_require__(19);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_angularfire2_database__ = __webpack_require__(268);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -941,25 +941,72 @@ var DatabasePage = (function () {
         });
     };
     DatabasePage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"C:\Users\Junyong\Bash\Inflearn_Ionic\src\pages\database\database.html"*/'<ion-header>\n\n    <ion-navbar>\n\n      <button ion-button menuToggle>\n\n        <ion-icon name="menu"></ion-icon>\n\n      </button>\n\n      <ion-title>Database Page</ion-title>\n\n    </ion-navbar>\n\n  </ion-header>\n\n  \n\n  <ion-content padding>\n\n    <h3>Database Page</h3>\n\n    <ion-item>\n\n        <ion-input [(ngModel)]="myInput"></ion-input>\n\n    </ion-item>\n\n    <button (click)="btnAddClicked()" ion-button>Add</button>\n\n\n\n    <ion-list>\n\n        <ion-item *ngFor="let item of items">\n\n            {{ item }}\n\n        </ion-item>\n\n    </ion-list>\n\n  \n\n  </ion-content>'/*ion-inline-end:"C:\Users\Junyong\Bash\Inflearn_Ionic\src\pages\database\database.html"*/
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"C:\Users\여경\Documents\Inflearn\src\pages\database\database.html"*/'<ion-header>\n\n    <ion-navbar>\n\n      <button ion-button menuToggle>\n\n        <ion-icon name="menu"></ion-icon>\n\n      </button>\n\n      <ion-title>Database Page</ion-title>\n\n    </ion-navbar>\n\n  </ion-header>\n\n  \n\n  <ion-content padding>\n\n    <h3>Database Page</h3>\n\n    <ion-item>\n\n        <ion-input [(ngModel)]="myInput"></ion-input>\n\n    </ion-item>\n\n    <button (click)="btnAddClicked()" ion-button>Add</button>\n\n\n\n    <ion-list>\n\n        <ion-item *ngFor="let item of items">\n\n            {{ item }}\n\n        </ion-item>\n\n    </ion-list>\n\n  \n\n  </ion-content>'/*ion-inline-end:"C:\Users\여경\Documents\Inflearn\src\pages\database\database.html"*/
         }),
-        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_angularfire2_auth__["a" /* AngularFireAuth */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_angularfire2_auth__["a" /* AngularFireAuth */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_3_ionic_angular__["l" /* ToastController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3_ionic_angular__["l" /* ToastController */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_2_ionic_angular_navigation_nav_controller__["a" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2_ionic_angular_navigation_nav_controller__["a" /* NavController */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_4_ionic_angular_navigation_nav_params__["a" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_4_ionic_angular_navigation_nav_params__["a" /* NavParams */]) === "function" && _d || Object, typeof (_e = typeof __WEBPACK_IMPORTED_MODULE_5_angularfire2_database__["a" /* AngularFireDatabase */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_5_angularfire2_database__["a" /* AngularFireDatabase */]) === "function" && _e || Object])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_angularfire2_auth__["a" /* AngularFireAuth */], __WEBPACK_IMPORTED_MODULE_3_ionic_angular__["l" /* ToastController */],
+            __WEBPACK_IMPORTED_MODULE_2_ionic_angular_navigation_nav_controller__["a" /* NavController */], __WEBPACK_IMPORTED_MODULE_4_ionic_angular_navigation_nav_params__["a" /* NavParams */],
+            __WEBPACK_IMPORTED_MODULE_5_angularfire2_database__["a" /* AngularFireDatabase */]])
     ], DatabasePage);
     return DatabasePage;
-    var _a, _b, _c, _d, _e;
 }());
 
 //# sourceMappingURL=database.js.map
 
 /***/ }),
 
-/***/ 226:
+/***/ 305:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return QRcodePage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ionic_native_barcode_scanner__ = __webpack_require__(306);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+var QRcodePage = (function () {
+    function QRcodePage(barcodeScanner) {
+        this.barcodeScanner = barcodeScanner;
+        this.qrData = null;
+        this.createdCode = null;
+        this.scannedCode = null;
+    }
+    QRcodePage.prototype.createCode = function () {
+        this.createdCode = this.qrData;
+    };
+    QRcodePage.prototype.scanCode = function () {
+        var _this = this;
+        this.barcodeScanner.scan().then(function (barcodeData) {
+            _this.scannedCode = barcodeData.text;
+        });
+    };
+    QRcodePage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"C:\Users\여경\Documents\Inflearn\src\pages\QRcode\QRcode.html"*/'<ion-header>\n\n    <ion-navbar>\n\n        <ion-title>\n\n            QR Code App\n\n        </ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content padding>\n\n<ion-item>\n\n    <ion-input type="text" placeholder="My QR data" [(ngModel)]="qrData">\n\n    </ion-input>\n\n</ion-item>\n\n<button ion-button full icon-left (click)="createCode()"><ion-icon name="barcode"></ion-icon>Create Code</button>\n\n<button ion-button full icon-left (click)="scanCode()"><ion-icon name="qr-scanner"></ion-icon>Scan Code</button>\n\n\n\n<ion-card *ngIf="createdCode">\n\n<ngx-qrcode [qrc-value]="createdCode"></ngx-qrcode>\n\n   <ion-card-content>\n\n    <p>Value: {{createdCode}}</p>\n\n   </ion-card-content>\n\n</ion-card>\n\n\n\n<ion-card *ngIf="scannedCode">\n\n    <ion-card-content>\n\n        Result froam Scan : {{scannedCode}}\n\n    </ion-card-content>\n\n</ion-card>\n\n</ion-content>'/*ion-inline-end:"C:\Users\여경\Documents\Inflearn\src\pages\QRcode\QRcode.html"*/
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__ionic_native_barcode_scanner__["a" /* BarcodeScanner */]])
+    ], QRcodePage);
+    return QRcodePage;
+}());
+
+//# sourceMappingURL=QRcode.js.map
+
+/***/ }),
+
+/***/ 311:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(227);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(249);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(312);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(332);
 
 
 Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_1__app_module__["a" /* AppModule */]);
@@ -967,44 +1014,52 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 
 /***/ }),
 
-/***/ 249:
+/***/ 332:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(31);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(41);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(11);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_component__ = __webpack_require__(291);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_action_sheet_action_sheet__ = __webpack_require__(199);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_alert_alert__ = __webpack_require__(200);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_button_button__ = __webpack_require__(201);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_home_home__ = __webpack_require__(223);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__ionic_native_status_bar__ = __webpack_require__(195);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__ionic_native_splash_screen__ = __webpack_require__(198);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_card_bg_cards_bg_cards__ = __webpack_require__(203);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_card_social_cards_social_cards__ = __webpack_require__(204);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_card_card__ = __webpack_require__(202);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_datetime_datetime__ = __webpack_require__(205);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_fab_fab__ = __webpack_require__(206);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_input_input__ = __webpack_require__(207);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_input_success_success__ = __webpack_require__(208);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__pages_lists_lists__ = __webpack_require__(209);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__pages_lists_detail_detail__ = __webpack_require__(210);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__pages_loading_loading__ = __webpack_require__(211);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20_angularfire2__ = __webpack_require__(102);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21_angularfire2_auth__ = __webpack_require__(100);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__pages_login_login__ = __webpack_require__(212);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__pages_register_register__ = __webpack_require__(213);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__pages_modals_modals__ = __webpack_require__(224);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__pages_database_database__ = __webpack_require__(225);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26_angularfire2_database__ = __webpack_require__(406);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_component__ = __webpack_require__(373);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_action_sheet_action_sheet__ = __webpack_require__(236);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_alert_alert__ = __webpack_require__(237);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_button_button__ = __webpack_require__(238);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_home_home__ = __webpack_require__(265);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__ionic_native_status_bar__ = __webpack_require__(233);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__ionic_native_splash_screen__ = __webpack_require__(235);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_card_bg_cards_bg_cards__ = __webpack_require__(240);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_card_social_cards_social_cards__ = __webpack_require__(241);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_card_card__ = __webpack_require__(239);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_datetime_datetime__ = __webpack_require__(242);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_fab_fab__ = __webpack_require__(243);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_input_input__ = __webpack_require__(244);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_input_success_success__ = __webpack_require__(245);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__pages_lists_lists__ = __webpack_require__(246);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__pages_lists_detail_detail__ = __webpack_require__(247);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__pages_loading_loading__ = __webpack_require__(248);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20_angularfire2__ = __webpack_require__(43);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21_angularfire2_auth__ = __webpack_require__(73);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__pages_login_login__ = __webpack_require__(249);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__pages_register_register__ = __webpack_require__(250);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__pages_modals_modals__ = __webpack_require__(266);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__pages_database_database__ = __webpack_require__(267);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26_angularfire2_database__ = __webpack_require__(268);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27_ngx_qrcode2__ = __webpack_require__(476);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__ionic_native_barcode_scanner__ = __webpack_require__(306);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__ionic_native_camera__ = __webpack_require__(496);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__pages_QRcode_QRcode__ = __webpack_require__(305);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
+
+
+
 
 
 
@@ -1065,7 +1120,8 @@ var AppModule = (function () {
                 __WEBPACK_IMPORTED_MODULE_19__pages_loading_loading__["a" /* LoadingPage */],
                 __WEBPACK_IMPORTED_MODULE_24__pages_modals_modals__["b" /* ModalsPage */],
                 __WEBPACK_IMPORTED_MODULE_24__pages_modals_modals__["a" /* ModalDetailPage */],
-                __WEBPACK_IMPORTED_MODULE_25__pages_database_database__["a" /* DatabasePage */]
+                __WEBPACK_IMPORTED_MODULE_25__pages_database_database__["a" /* DatabasePage */],
+                __WEBPACK_IMPORTED_MODULE_30__pages_QRcode_QRcode__["a" /* QRcodePage */]
             ],
             imports: [
                 __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
@@ -1075,7 +1131,8 @@ var AppModule = (function () {
                 __WEBPACK_IMPORTED_MODULE_20_angularfire2__["a" /* AngularFireModule */].initializeApp(config),
                 __WEBPACK_IMPORTED_MODULE_21_angularfire2_auth__["b" /* AngularFireAuthModule */],
                 __WEBPACK_IMPORTED_MODULE_20_angularfire2__["a" /* AngularFireModule */],
-                __WEBPACK_IMPORTED_MODULE_26_angularfire2_database__["b" /* AngularFireDatabaseModule */]
+                __WEBPACK_IMPORTED_MODULE_26_angularfire2_database__["b" /* AngularFireDatabaseModule */],
+                __WEBPACK_IMPORTED_MODULE_27_ngx_qrcode2__["a" /* NgxQRCodeModule */]
             ],
             bootstrap: [__WEBPACK_IMPORTED_MODULE_2_ionic_angular__["c" /* IonicApp */]],
             entryComponents: [
@@ -1098,11 +1155,14 @@ var AppModule = (function () {
                 __WEBPACK_IMPORTED_MODULE_19__pages_loading_loading__["a" /* LoadingPage */],
                 __WEBPACK_IMPORTED_MODULE_24__pages_modals_modals__["b" /* ModalsPage */],
                 __WEBPACK_IMPORTED_MODULE_24__pages_modals_modals__["a" /* ModalDetailPage */],
-                __WEBPACK_IMPORTED_MODULE_25__pages_database_database__["a" /* DatabasePage */]
+                __WEBPACK_IMPORTED_MODULE_25__pages_database_database__["a" /* DatabasePage */],
+                __WEBPACK_IMPORTED_MODULE_30__pages_QRcode_QRcode__["a" /* QRcodePage */]
             ],
             providers: [
                 __WEBPACK_IMPORTED_MODULE_8__ionic_native_status_bar__["a" /* StatusBar */],
                 __WEBPACK_IMPORTED_MODULE_9__ionic_native_splash_screen__["a" /* SplashScreen */],
+                __WEBPACK_IMPORTED_MODULE_29__ionic_native_camera__["a" /* Camera */],
+                __WEBPACK_IMPORTED_MODULE_28__ionic_native_barcode_scanner__["a" /* BarcodeScanner */],
                 { provide: __WEBPACK_IMPORTED_MODULE_1__angular_core__["u" /* ErrorHandler */], useClass: __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["d" /* IonicErrorHandler */] }
             ]
         })
@@ -1114,27 +1174,28 @@ var AppModule = (function () {
 
 /***/ }),
 
-/***/ 291:
+/***/ 373:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyApp; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(195);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(198);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_action_sheet_action_sheet__ = __webpack_require__(199);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_alert_alert__ = __webpack_require__(200);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_button_button__ = __webpack_require__(201);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_card_card__ = __webpack_require__(202);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_datetime_datetime__ = __webpack_require__(205);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_fab_fab__ = __webpack_require__(206);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_input_input__ = __webpack_require__(207);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_lists_lists__ = __webpack_require__(209);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_loading_loading__ = __webpack_require__(211);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_login_login__ = __webpack_require__(212);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_modals_modals__ = __webpack_require__(224);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_database_database__ = __webpack_require__(225);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(233);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(235);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_action_sheet_action_sheet__ = __webpack_require__(236);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_alert_alert__ = __webpack_require__(237);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_button_button__ = __webpack_require__(238);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_card_card__ = __webpack_require__(239);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_datetime_datetime__ = __webpack_require__(242);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_fab_fab__ = __webpack_require__(243);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_input_input__ = __webpack_require__(244);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_lists_lists__ = __webpack_require__(246);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_loading_loading__ = __webpack_require__(248);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_login_login__ = __webpack_require__(249);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_modals_modals__ = __webpack_require__(266);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_database_database__ = __webpack_require__(267);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_QRcode_QRcode__ = __webpack_require__(305);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1153,6 +1214,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 //import { HomePage } from '../pages/home/home';
+
 
 
 
@@ -1182,7 +1244,8 @@ var MyApp = (function () {
             { title: 'List page', component: __WEBPACK_IMPORTED_MODULE_11__pages_lists_lists__["a" /* ListPage */] },
             { title: 'Loading page', component: __WEBPACK_IMPORTED_MODULE_12__pages_loading_loading__["a" /* LoadingPage */] },
             { title: 'modal page', component: __WEBPACK_IMPORTED_MODULE_14__pages_modals_modals__["b" /* ModalsPage */] },
-            { title: 'Database Page', component: __WEBPACK_IMPORTED_MODULE_15__pages_database_database__["a" /* DatabasePage */] }
+            { title: 'Database Page', component: __WEBPACK_IMPORTED_MODULE_15__pages_database_database__["a" /* DatabasePage */] },
+            { title: 'QRCode Page', component: __WEBPACK_IMPORTED_MODULE_16__pages_QRcode_QRcode__["a" /* QRcodePage */] }
         ];
     }
     MyApp.prototype.initializeApp = function () {
@@ -1204,7 +1267,7 @@ var MyApp = (function () {
         __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* Nav */])
     ], MyApp.prototype, "nav", void 0);
     MyApp = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"C:\Users\Junyong\Bash\Inflearn_Ionic\src\app\app.html"*/'<ion-menu [content]="content">\n\n  <ion-header>\n\n    <ion-toolbar>\n\n      <ion-title>Menu</ion-title>\n\n    </ion-toolbar>\n\n  </ion-header>\n\n\n\n  <ion-content>\n\n    <ion-list>\n\n      <button menuClose ion-item *ngFor="let p of pages" (click)="openPage(p)">\n\n        {{p.title}}\n\n      </button>\n\n    </ion-list>\n\n  </ion-content>\n\n\n\n</ion-menu>\n\n\n\n<!-- Disable swipe-to-go-back because it\'s poor UX to combine STGB with side menus -->\n\n<ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>'/*ion-inline-end:"C:\Users\Junyong\Bash\Inflearn_Ionic\src\app\app.html"*/
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"C:\Users\여경\Documents\Inflearn\src\app\app.html"*/'<ion-menu [content]="content">\n\n  <ion-header>\n\n    <ion-toolbar>\n\n      <ion-title>Menu</ion-title>\n\n    </ion-toolbar>\n\n  </ion-header>\n\n\n\n  <ion-content>\n\n    <ion-list>\n\n      <button menuClose ion-item *ngFor="let p of pages" (click)="openPage(p)">\n\n        {{p.title}}\n\n      </button>\n\n    </ion-list>\n\n  </ion-content>\n\n\n\n</ion-menu>\n\n\n\n<!-- Disable swipe-to-go-back because it\'s poor UX to combine STGB with side menus -->\n\n<ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>'/*ion-inline-end:"C:\Users\여경\Documents\Inflearn\src\app\app.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]])
     ], MyApp);
@@ -1215,7 +1278,7 @@ var MyApp = (function () {
 
 /***/ }),
 
-/***/ 300:
+/***/ 382:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1236,5 +1299,5 @@ var Person = (function () {
 
 /***/ })
 
-},[226]);
+},[311]);
 //# sourceMappingURL=main.js.map

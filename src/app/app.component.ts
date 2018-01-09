@@ -4,6 +4,7 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 //import { AngularFireAuthModule } from 'angularfire2/auth'
 
+
 import { ActionSheetPage } from '../pages/action-sheet/action-sheet';
 import { AlertPage } from '../pages/alert/alert';
 import { ButtonPage } from '../pages/button/button';
@@ -17,7 +18,7 @@ import { LoadingPage } from '../pages/loading/loading';
 import { LoginPage } from '../pages/login/login';
 import { ModalsPage } from '../pages/modals/modals';
 import { DatabasePage } from '../pages/database/database';
-
+import { QRcodePage } from '../pages/QRcode/QRcode';
 
 @Component({
   templateUrl: 'app.html'
@@ -45,7 +46,8 @@ export class MyApp {
       { title: 'List page', component: ListPage },
       { title: 'Loading page', component: LoadingPage },
       { title: 'modal page', component: ModalsPage },
-      { title: 'Database Page', component: DatabasePage }
+      { title: 'Database Page', component: DatabasePage },
+      { title: 'QRCode Page', component: QRcodePage}
     ];
 
   }

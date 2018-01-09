@@ -28,6 +28,11 @@ import { ModalsPage, ModalDetailPage } from '../pages/modals/modals';
 import { DatabasePage } from '../pages/database/database';
 import { AngularFireDatabaseModule } from 'angularfire2/database';
 
+import { NgxQRCodeModule } from 'ngx-qrcode2';
+import { BarcodeScanner } from '@ionic-native/barcode-scanner';
+
+import { Camera } from '@ionic-native/camera';
+import { QRcodePage } from '../pages/QRcode/QRcode';
 
 var config = {
   apiKey: "AIzaSyDTX3dMbEsue0SrseVUORbsJYaDxw-LHg4",
@@ -59,7 +64,8 @@ var config = {
     LoadingPage,
     ModalsPage,
      ModalDetailPage,
-    DatabasePage
+    DatabasePage, 
+    QRcodePage
   ],
   imports: [
     BrowserModule,
@@ -67,7 +73,8 @@ var config = {
     AngularFireModule.initializeApp(config),
     AngularFireAuthModule,
     AngularFireModule,
-    AngularFireDatabaseModule
+    AngularFireDatabaseModule,
+    NgxQRCodeModule
   ],
   bootstrap: [IonicApp],
   entryComponents: [
@@ -90,11 +97,14 @@ var config = {
     LoadingPage,
     ModalsPage,
       ModalDetailPage,
-    DatabasePage
+    DatabasePage, 
+    QRcodePage
   ],
   providers: [
     StatusBar,
     SplashScreen,
+    Camera,
+    BarcodeScanner,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })
