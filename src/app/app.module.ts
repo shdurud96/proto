@@ -24,6 +24,7 @@ import { AngularFireModule } from 'angularfire2';
 import { AngularFireAuthModule } from 'angularfire2/auth';
 import { LoginPage } from '../pages/login/login';
 import { RegisterPage } from '../pages/register/register';
+import { ModalsPage, ModalDetailPage } from '../pages/modals/modals';
 
 
 var config = {
@@ -53,7 +54,9 @@ var config = {
       SuccessPage,
     ListPage,
       DetailPage,
-    LoadingPage
+    LoadingPage,
+    ModalsPage,
+     ModalDetailPage
   ],
   imports: [
     BrowserModule,
@@ -80,7 +83,9 @@ var config = {
       SuccessPage,
     ListPage,
       DetailPage,
-    LoadingPage
+    LoadingPage,
+    ModalsPage,
+      ModalDetailPage
   ],
   providers: [
     StatusBar,

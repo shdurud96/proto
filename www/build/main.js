@@ -6,7 +6,7 @@ webpackJsonp([0],{
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomePage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -26,7 +26,7 @@ var HomePage = (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-home',template:/*ion-inline-start:"C:\Users\Junyong\Bash\Inflearn_Ionic\src\pages\home\home.html"*/'<ion-header>\n\n  <ion-navbar>\n\n    <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title>Home</ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content padding>\n\n  <h3>Welcome! Home Page</h3>\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\Junyong\Bash\Inflearn_Ionic\src\pages\home\home.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */]])
     ], HomePage);
     return HomePage;
 }());
@@ -75,7 +75,7 @@ webpackEmptyAsyncContext.id = 156;
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ActionSheetPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -138,7 +138,7 @@ var ActionSheetPage = (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AlertPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -269,7 +269,7 @@ var ButtonPage = (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CardPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__bg_cards_bg_cards__ = __webpack_require__(204);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__social_cards_social_cards__ = __webpack_require__(205);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -298,7 +298,7 @@ var CardPage = (function () {
     CardPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"C:\Users\Junyong\Bash\Inflearn_Ionic\src\pages\card\card.html"*/'<ion-header>\n\n    <ion-navbar>\n\n      <button ion-button menuToggle>\n\n        <ion-icon name="menu"></ion-icon>\n\n      </button>\n\n      <ion-title>Card</ion-title>\n\n    </ion-navbar>\n\n  </ion-header>\n\n  \n\n  <ion-content padding>\n\n    <button ion-button block (click)="openBackgroundImageCardPage()"> \n\n      Background Image Cards\n\n    </button>\n\n    <button ion-button block (click)="openSocialCardPage()">\n\n      Social Cards \n\n    </button>\n\n  </ion-content>\n\n  '/*ion-inline-end:"C:\Users\Junyong\Bash\Inflearn_Ionic\src\pages\card\card.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */]])
     ], CardPage);
     return CardPage;
 }());
@@ -440,7 +440,7 @@ var FabPage = (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return InputPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__success_success__ = __webpack_require__(209);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -476,7 +476,7 @@ var InputPage = (function () {
     InputPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"C:\Users\Junyong\Bash\Inflearn_Ionic\src\pages\input\input.html"*/'<ion-header>\n\n    <ion-navbar>   <!-- navigation이 가능한 header bar라는 것. -->\n\n      <button ion-button menuToggle>  <!--이 버튼을 눌렀을 때 sidemenu를 띄울 수 있게 됨. 여기서 \'menuToggle\'이 없으면 menu가 한 번만 가능함..sidemenu를 계속 사용하려면 menuToggle 써주어야 한다. -->\n\n        <ion-icon name="menu"></ion-icon>\n\n      </button>\n\n      <ion-title>Input Page</ion-title>\n\n    </ion-navbar>\n\n  </ion-header>\n\n\n\n  <ion-content>\n\n      <ion-list>\n\n          <ion-item>\n\n              <ion-label color="{{labelColor}}" floating>Username</ion-label>\n\n              <ion-input type="text" [(ngModel)]="username" (blur)="doBlur()" (focus)="doFocus()"></ion-input>\n\n          </ion-item>\n\n          <ion-item>\n\n              <ion-label floating>Password</ion-label>\n\n              <ion-input type="password" [(ngModel)]="password"></ion-input>\n\n          </ion-item>\n\n      </ion-list>\n\n      <button ion-button block (click)="signIn()">Sign In</button>\n\n  </ion-content>'/*ion-inline-end:"C:\Users\Junyong\Bash\Inflearn_Ionic\src\pages\input\input.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */]])
     ], InputPage);
     return InputPage;
 }());
@@ -491,7 +491,7 @@ var InputPage = (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SuccessPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -516,7 +516,7 @@ var SuccessPage = (function () {
     SuccessPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"C:\Users\Junyong\Bash\Inflearn_Ionic\src\pages\input\success\success.html"*/'<ion-header>\n\n        <ion-navbar>\n\n            <button ion-button menuToggle>\n\n                <ion-icon name="menu"></ion-icon>\n\n            </button>\n\n            <ion-title>Success Page {{username}}</ion-title>\n\n        </ion-navbar>\n\n    </ion-header>\n\n\n\n<ion-content>\n\n    {{username}} logged in!\n\n</ion-content>'/*ion-inline-end:"C:\Users\Junyong\Bash\Inflearn_Ionic\src\pages\input\success\success.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */]])
     ], SuccessPage);
     return SuccessPage;
 }());
@@ -531,8 +531,8 @@ var SuccessPage = (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ListPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__models_person__ = __webpack_require__(298);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__models_person__ = __webpack_require__(299);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(11);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__detail_detail__ = __webpack_require__(211);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -565,7 +565,7 @@ var ListPage = (function () {
     ListPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"C:\Users\Junyong\Bash\Inflearn_Ionic\src\pages\lists\lists.html"*/'<ion-header>\n\n    <ion-navbar>\n\n      <button ion-button menuToggle>\n\n        <ion-icon name="menu"></ion-icon>\n\n      </button>\n\n      <ion-title>List Page</ion-title>\n\n    </ion-navbar>\n\n  </ion-header>\n\n\n\n<ion-content class="outer-content">\n\n    <ion-list>\n\n        <ion-list-header>BUSTERS</ion-list-header>\n\n        <ion-item-sliding *ngFor="let person of persons">\n\n            <ion-item>\n\n                <ion-avatar item-left>\n\n                    <img src="{{person.avatar}}"/>\n\n                </ion-avatar>\n\n                <h2>{{person.name}}</h2>\n\n                <p>{{person.detail}}</p>\n\n            </ion-item>\n\n            <ion-item-options>\n\n                <button ion-button color="light" (click)="openDetailPage(person)">\n\n                    <ion-icon name="ios-more"></ion-icon>\n\n                    More\n\n                </button>\n\n                <button ion-button color="primary">\n\n                    <ion-icon name="text"></ion-icon>\n\n                    Text\n\n                </button>\n\n                <button ion-button color="secondary">\n\n                    <ion-icon name="call"></ion-icon>\n\n                    Call\n\n                </button>\n\n            </ion-item-options>\n\n        </ion-item-sliding>\n\n    </ion-list>\n\n</ion-content>'/*ion-inline-end:"C:\Users\Junyong\Bash\Inflearn_Ionic\src\pages\lists\lists.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2_ionic_angular__["h" /* NavController */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2_ionic_angular__["i" /* NavController */]])
     ], ListPage);
     return ListPage;
 }());
@@ -580,7 +580,7 @@ var ListPage = (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return DetailPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -602,7 +602,7 @@ var DetailPage = (function () {
     DetailPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"C:\Users\Junyong\Bash\Inflearn_Ionic\src\pages\lists\detail\detail.html"*/'<ion-header>\n\n    <ion-navbar>\n\n      <button ion-button menuToggle>\n\n        <ion-icon name="menu"></ion-icon>\n\n      </button>\n\n      <ion-title>Detail Page</ion-title>\n\n    </ion-navbar>\n\n  </ion-header>\n\n\n\n<ion-content>\n\n  <ion-item no-lines>\n\n    <ion-avatar item-left>\n\n      <img style="width:70px; height:70px;" src="{{profileImage}}" />\n\n    </ion-avatar>\n\n    <h1>{{name}}</h1>\n\n  </ion-item>\n\n  <ion-item no-lines> \n\n    <p>{{detail}}</p>\n\n  </ion-item>\n\n\n\n</ion-content>'/*ion-inline-end:"C:\Users\Junyong\Bash\Inflearn_Ionic\src\pages\lists\detail\detail.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */]])
     ], DetailPage);
     return DetailPage;
 }());
@@ -617,7 +617,7 @@ var DetailPage = (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LoadingPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -698,7 +698,7 @@ var LoadingPage = (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LoginPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__register_register__ = __webpack_require__(214);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_angularfire2_auth__ = __webpack_require__(101);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__home_home__ = __webpack_require__(100);
@@ -744,7 +744,7 @@ var LoginPage = (function () {
             selector: 'page-login',template:/*ion-inline-start:"C:\Users\Junyong\Bash\Inflearn_Ionic\src\pages\login\login.html"*/'<ion-header>\n\n    <ion-navbar>   <!-- navigation이 가능한 header bar라는 것. -->\n\n      <button ion-button menuToggle>  <!--이 버튼을 눌렀을 때 sidemenu를 띄울 수 있게 됨. 여기서 \'menuToggle\'이 없으면 menu가 한 번만 가능함..sidemenu를 계속 사용하려면 menuToggle 써주어야 한다. -->\n\n        <ion-icon name="menu"></ion-icon>\n\n      </button>\n\n      <ion-title>Login Page</ion-title>\n\n    </ion-navbar>\n\n  </ion-header>\n\n\n\n  <ion-content>\n\n      <ion-list>\n\n          <ion-item>\n\n              <ion-label color="{{labelColor}}" floating>Username</ion-label>\n\n              <ion-input type="text" [(ngModel)]="user.email" (blur)="doBlur()" (focus)="doFocus()"></ion-input>\n\n          </ion-item>\n\n          <ion-item>\n\n              <ion-label floating>Password</ion-label>\n\n              <ion-input type="password" [(ngModel)]="user.password"></ion-input>\n\n          </ion-item>\n\n      </ion-list>\n\n      <button ion-button block (click)="login(user)">Log in</button>\n\n      <button ion-button block (click)="register()">Register</button>"\n\n  </ion-content>'/*ion-inline-end:"C:\Users\Junyong\Bash\Inflearn_Ionic\src\pages\login\login.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_3_angularfire2_auth__["a" /* AngularFireAuth */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]])
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */]])
     ], LoginPage);
     return LoginPage;
 }());
@@ -759,7 +759,7 @@ var LoginPage = (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return RegisterPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_angularfire2_auth__ = __webpack_require__(101);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -795,7 +795,7 @@ var RegisterPage = (function () {
             selector: 'page-register',template:/*ion-inline-start:"C:\Users\Junyong\Bash\Inflearn_Ionic\src\pages\register\register.html"*/'<ion-header>\n\n    <ion-navbar>   <!-- navigation이 가능한 header bar라는 것. -->\n\n      <button ion-button menuToggle>  <!--이 버튼을 눌렀을 때 sidemenu를 띄울 수 있게 됨. 여기서 \'menuToggle\'이 없으면 menu가 한 번만 가능함..sidemenu를 계속 사용하려면 menuToggle 써주어야 한다. -->\n\n        <ion-icon name="menu"></ion-icon>\n\n      </button>\n\n      <ion-title>Register Page</ion-title>\n\n    </ion-navbar>\n\n  </ion-header>\n\n\n\n  <ion-content>\n\n      <ion-list>\n\n          <ion-item>\n\n              <ion-label color="{{labelColor}}" floating>Username</ion-label>\n\n              <ion-input type="text" [(ngModel)]="user.email" (blur)="doBlur()" (focus)="doFocus()"></ion-input>\n\n          </ion-item>\n\n          <ion-item>\n\n              <ion-label floating>Password</ion-label>\n\n              <ion-input type="password" [(ngModel)]="user.password"></ion-input>\n\n          </ion-item>\n\n      </ion-list>\n\n      <button ion-button block (click)="register(user)">Register</button>"\n\n  </ion-content>'/*ion-inline-end:"C:\Users\Junyong\Bash\Inflearn_Ionic\src\pages\register\register.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2_angularfire2_auth__["a" /* AngularFireAuth */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]])
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */]])
     ], RegisterPage);
     return RegisterPage;
 }());
@@ -808,9 +808,85 @@ var RegisterPage = (function () {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return ModalsPage; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ModalDetailPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+var Email = (function () {
+    function Email(addr, body) {
+        this.address = addr;
+        this.body = body;
+    }
+    return Email;
+}());
+var ModalsPage = (function () {
+    function ModalsPage(modalCtrl) {
+        this.modalCtrl = modalCtrl;
+        this.emails = [
+            { address: "john@gamil.com", body: "hello" },
+            { address: "paul@gmail.com", body: "bye" },
+            { address: "scott@gmail.com", body: "goodnight" }
+        ];
+    }
+    ModalsPage.prototype.openModalPage = function (email) {
+        var modal = this.modalCtrl.create(ModalDetailPage, {
+            address: email.address,
+            body: email.body
+        });
+        modal.present();
+    };
+    ModalsPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-modals',template:/*ion-inline-start:"C:\Users\Junyong\Bash\Inflearn_Ionic\src\pages\modals\modals.html"*/'<ion-header>\n\n  <ion-navbar>   <!-- navigation이 가능한 header bar라는 것. -->\n\n    <button ion-button menuToggle>  <!--이 버튼을 눌렀을 때 sidemenu를 띄울 수 있게 됨. 여기서 \'menuToggle\'이 없으면 menu가 한 번만 가능함..sidemenu를 계속 사용하려면 menuToggle 써주어야 한다. -->\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title>Modals Page</ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n  <ion-content>\n\n    <ion-list>\n\n      <ion-item *ngFor="let email of emails" (click)="openModalPage(email)">\n\n        <h2>{{email.address}}</h2>\n\n        <p>{{email.body}}</p>\n\n      </ion-item>\n\n    </ion-list>\n\n  </ion-content>'/*ion-inline-end:"C:\Users\Junyong\Bash\Inflearn_Ionic\src\pages\modals\modals.html"*/,
+        }),
+        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* ModalController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* ModalController */]) === "function" && _a || Object])
+    ], ModalsPage);
+    return ModalsPage;
+    var _a;
+}());
+
+var ModalDetailPage = (function () {
+    function ModalDetailPage(viewCtrl, navParams) {
+        this.viewCtrl = viewCtrl;
+        this.navParams = navParams;
+        this.address = this.navParams.get("address");
+        this.body = this.navParams.get("body");
+    }
+    ModalDetailPage.prototype.dismiss = function () {
+        this.viewCtrl.dismiss();
+    };
+    ModalDetailPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"C:\Users\Junyong\Bash\Inflearn_Ionic\src\pages\modals\modaldetail.html"*/'<ion-header>\n\n    <ion-toolbar>\n\n      <ion-title>Detail</ion-title>\n\n      <ion-buttons start>\n\n        <button ion-button (click) = "dismiss()">\n\n          <span ion-text color="primary">Cancel</span>\n\n        </button>\n\n      </ion-buttons>\n\n    </ion-toolbar>\n\n  </ion-header>\n\n  <ion-content>\n\n    <h1>{{address}}></h1>\n\n    <p>{{body}}</p>\n\n  </ion-content>'/*ion-inline-end:"C:\Users\Junyong\Bash\Inflearn_Ionic\src\pages\modals\modaldetail.html"*/
+        }),
+        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* ViewController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* ViewController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */]) === "function" && _b || Object])
+    ], ModalDetailPage);
+    return ModalDetailPage;
+    var _a, _b;
+}());
+
+//# sourceMappingURL=modals.js.map
+
+/***/ }),
+
+/***/ 225:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(225);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(247);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(226);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(248);
 
 
 Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_1__app_module__["a" /* AppModule */]);
@@ -818,15 +894,15 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 
 /***/ }),
 
-/***/ 247:
+/***/ 248:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(31);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_component__ = __webpack_require__(289);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_component__ = __webpack_require__(290);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_action_sheet_action_sheet__ = __webpack_require__(200);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_alert_alert__ = __webpack_require__(201);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_button_button__ = __webpack_require__(202);
@@ -847,12 +923,14 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_21_angularfire2_auth__ = __webpack_require__(101);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__pages_login_login__ = __webpack_require__(213);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__pages_register_register__ = __webpack_require__(214);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__pages_modals_modals__ = __webpack_require__(224);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
 
 
 
@@ -907,7 +985,9 @@ var AppModule = (function () {
                 __WEBPACK_IMPORTED_MODULE_16__pages_input_success_success__["a" /* SuccessPage */],
                 __WEBPACK_IMPORTED_MODULE_17__pages_lists_lists__["a" /* ListPage */],
                 __WEBPACK_IMPORTED_MODULE_18__pages_lists_detail_detail__["a" /* DetailPage */],
-                __WEBPACK_IMPORTED_MODULE_19__pages_loading_loading__["a" /* LoadingPage */]
+                __WEBPACK_IMPORTED_MODULE_19__pages_loading_loading__["a" /* LoadingPage */],
+                __WEBPACK_IMPORTED_MODULE_24__pages_modals_modals__["b" /* ModalsPage */],
+                __WEBPACK_IMPORTED_MODULE_24__pages_modals_modals__["a" /* ModalDetailPage */]
             ],
             imports: [
                 __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
@@ -936,7 +1016,9 @@ var AppModule = (function () {
                 __WEBPACK_IMPORTED_MODULE_16__pages_input_success_success__["a" /* SuccessPage */],
                 __WEBPACK_IMPORTED_MODULE_17__pages_lists_lists__["a" /* ListPage */],
                 __WEBPACK_IMPORTED_MODULE_18__pages_lists_detail_detail__["a" /* DetailPage */],
-                __WEBPACK_IMPORTED_MODULE_19__pages_loading_loading__["a" /* LoadingPage */]
+                __WEBPACK_IMPORTED_MODULE_19__pages_loading_loading__["a" /* LoadingPage */],
+                __WEBPACK_IMPORTED_MODULE_24__pages_modals_modals__["b" /* ModalsPage */],
+                __WEBPACK_IMPORTED_MODULE_24__pages_modals_modals__["a" /* ModalDetailPage */]
             ],
             providers: [
                 __WEBPACK_IMPORTED_MODULE_8__ionic_native_status_bar__["a" /* StatusBar */],
@@ -952,13 +1034,13 @@ var AppModule = (function () {
 
 /***/ }),
 
-/***/ 289:
+/***/ 290:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyApp; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(196);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(199);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_action_sheet_action_sheet__ = __webpack_require__(200);
@@ -972,6 +1054,7 @@ var AppModule = (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_lists_lists__ = __webpack_require__(210);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_loading_loading__ = __webpack_require__(212);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_login_login__ = __webpack_require__(213);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_modals_modals__ = __webpack_require__(224);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -981,6 +1064,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
+
 
 
 
@@ -1014,7 +1098,8 @@ var MyApp = (function () {
             { title: 'Fab page', component: __WEBPACK_IMPORTED_MODULE_10__pages_fab_fab__["a" /* FabPage */] },
             { title: 'Input page', component: __WEBPACK_IMPORTED_MODULE_11__pages_input_input__["a" /* InputPage */] },
             { title: 'List page', component: __WEBPACK_IMPORTED_MODULE_12__pages_lists_lists__["a" /* ListPage */] },
-            { title: 'Loading page', component: __WEBPACK_IMPORTED_MODULE_13__pages_loading_loading__["a" /* LoadingPage */] }
+            { title: 'Loading page', component: __WEBPACK_IMPORTED_MODULE_13__pages_loading_loading__["a" /* LoadingPage */] },
+            { title: 'modal page', component: __WEBPACK_IMPORTED_MODULE_15__pages_modals_modals__["b" /* ModalsPage */] }
         ];
     }
     MyApp.prototype.initializeApp = function () {
@@ -1032,13 +1117,13 @@ var MyApp = (function () {
         this.nav.setRoot(page.component);
     };
     __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_8" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* Nav */]),
-        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* Nav */])
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_8" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* Nav */]),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* Nav */])
     ], MyApp.prototype, "nav", void 0);
     MyApp = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"C:\Users\Junyong\Bash\Inflearn_Ionic\src\app\app.html"*/'<ion-menu [content]="content">\n\n  <ion-header>\n\n    <ion-toolbar>\n\n      <ion-title>Menu</ion-title>\n\n    </ion-toolbar>\n\n  </ion-header>\n\n\n\n  <ion-content>\n\n    <ion-list>\n\n      <button menuClose ion-item *ngFor="let p of pages" (click)="openPage(p)">\n\n        {{p.title}}\n\n      </button>\n\n    </ion-list>\n\n  </ion-content>\n\n\n\n</ion-menu>\n\n\n\n<!-- Disable swipe-to-go-back because it\'s poor UX to combine STGB with side menus -->\n\n<ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>'/*ion-inline-end:"C:\Users\Junyong\Bash\Inflearn_Ionic\src\app\app.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]])
     ], MyApp);
     return MyApp;
 }());
@@ -1047,7 +1132,7 @@ var MyApp = (function () {
 
 /***/ }),
 
-/***/ 298:
+/***/ 299:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1068,5 +1153,5 @@ var Person = (function () {
 
 /***/ })
 
-},[224]);
+},[225]);
 //# sourceMappingURL=main.js.map

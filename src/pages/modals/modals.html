@@ -1,0 +1,17 @@
+<ion-header>
+  <ion-navbar>   <!-- navigation이 가능한 header bar라는 것. -->
+    <button ion-button menuToggle>  <!--이 버튼을 눌렀을 때 sidemenu를 띄울 수 있게 됨. 여기서 'menuToggle'이 없으면 menu가 한 번만 가능함..sidemenu를 계속 사용하려면 menuToggle 써주어야 한다. -->
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Modals Page</ion-title>
+  </ion-navbar>
+</ion-header>
+
+  <ion-content>
+    <ion-list>
+      <ion-item *ngFor="let email of emails" (click)="openModalPage(email)">
+        <h2>{{email.address}}</h2>
+        <p>{{email.body}}</p>
+      </ion-item>
+    </ion-list>
+  </ion-content>
