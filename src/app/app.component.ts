@@ -2,12 +2,12 @@ import { Component, ViewChild } from '@angular/core';
 import { Nav, Platform } from 'ionic-angular';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
-import { AngularFireAuthModule } from 'angularfire2/auth'
+//import { AngularFireAuthModule } from 'angularfire2/auth'
 
 import { ActionSheetPage } from '../pages/action-sheet/action-sheet';
 import { AlertPage } from '../pages/alert/alert';
 import { ButtonPage } from '../pages/button/button';
-import { HomePage } from '../pages/home/home';
+//import { HomePage } from '../pages/home/home';
 import { CardPage } from '../pages/card/card';
 import { DatetimePage } from '../pages/datetime/datetime';
 import { FabPage } from '../pages/fab/fab';
@@ -16,6 +16,7 @@ import { ListPage } from '../pages/lists/lists';
 import { LoadingPage } from '../pages/loading/loading';
 import { LoginPage } from '../pages/login/login';
 import { ModalsPage } from '../pages/modals/modals';
+import { DatabasePage } from '../pages/database/database';
 
 
 @Component({
@@ -36,14 +37,15 @@ export class MyApp {
       { title: 'Action Sheet', component: ActionSheetPage },
       { title: 'Alert Page', component: AlertPage },
       { title: 'Button Page', component: ButtonPage },
-      { title: 'Home', component: HomePage },
+   //   { title: 'Home', component: HomePage },
       { title: 'Card Page', component: CardPage },
       { title: 'Datetime Page', component: DatetimePage },
       { title: 'Fab page', component: FabPage },
       { title: 'Input page', component: InputPage },
       { title: 'List page', component: ListPage },
       { title: 'Loading page', component: LoadingPage },
-      { title: 'modal page', component: ModalsPage }
+      { title: 'modal page', component: ModalsPage },
+      { title: 'Database Page', component: DatabasePage }
     ];
 
   }

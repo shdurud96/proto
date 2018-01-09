@@ -25,6 +25,8 @@ import { AngularFireAuthModule } from 'angularfire2/auth';
 import { LoginPage } from '../pages/login/login';
 import { RegisterPage } from '../pages/register/register';
 import { ModalsPage, ModalDetailPage } from '../pages/modals/modals';
+import { DatabasePage } from '../pages/database/database';
+import { AngularFireDatabaseModule } from 'angularfire2/database';
 
 
 var config = {
@@ -56,14 +58,16 @@ var config = {
       DetailPage,
     LoadingPage,
     ModalsPage,
-     ModalDetailPage
+     ModalDetailPage,
+    DatabasePage
   ],
   imports: [
     BrowserModule,
     IonicModule.forRoot(MyApp),
     AngularFireModule.initializeApp(config),
     AngularFireAuthModule,
-    AngularFireModule
+    AngularFireModule,
+    AngularFireDatabaseModule
   ],
   bootstrap: [IonicApp],
   entryComponents: [
@@ -85,7 +89,8 @@ var config = {
       DetailPage,
     LoadingPage,
     ModalsPage,
-      ModalDetailPage
+      ModalDetailPage,
+    DatabasePage
   ],
   providers: [
     StatusBar,
