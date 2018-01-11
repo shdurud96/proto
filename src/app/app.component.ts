@@ -19,6 +19,7 @@ import { LoginPage } from '../pages/login/login';
 import { ModalsPage } from '../pages/modals/modals';
 import { DatabasePage } from '../pages/database/database';
 import { QRcodePage } from '../pages/QRcode/QRcode';
+import { LocalNotificationsPage } from '../pages/LocalNotifications/LocalNotifications';
 
 @Component({
   templateUrl: 'app.html'
@@ -47,7 +48,8 @@ export class MyApp {
       { title: 'Loading page', component: LoadingPage },
       { title: 'modal page', component: ModalsPage },
       { title: 'Database Page', component: DatabasePage },
-      { title: 'QRCode Page', component: QRcodePage}
+      { title: 'QRCode Page', component: QRcodePage},
+      { title: 'LocalNotification Page', component: LocalNotificationsPage }
     ];
 
   }

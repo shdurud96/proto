@@ -33,6 +33,8 @@ import { BarcodeScanner } from '@ionic-native/barcode-scanner';
 
 import { Camera } from '@ionic-native/camera';
 import { QRcodePage } from '../pages/QRcode/QRcode';
+import { LocalNotifications } from  '@ionic-native/local-notifications';
+import { LocalNotificationsPage } from '../pages/LocalNotifications/LocalNotifications';
 
 var config = {
   apiKey: "AIzaSyDTX3dMbEsue0SrseVUORbsJYaDxw-LHg4",
@@ -65,7 +67,8 @@ var config = {
     ModalsPage,
      ModalDetailPage,
     DatabasePage, 
-    QRcodePage
+    QRcodePage,
+    LocalNotificationsPage
   ],
   imports: [
     BrowserModule,
@@ -98,13 +101,15 @@ var config = {
     ModalsPage,
       ModalDetailPage,
     DatabasePage, 
-    QRcodePage
+    QRcodePage,
+    LocalNotificationsPage
   ],
   providers: [
     StatusBar,
     SplashScreen,
     Camera,
     BarcodeScanner,
+    LocalNotifications,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })

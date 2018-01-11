@@ -496,7 +496,7 @@ var SuccessPage = (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ListPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__models_person__ = __webpack_require__(382);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__models_person__ = __webpack_require__(384);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(13);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__detail_detail__ = __webpack_require__(247);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -1000,13 +1000,73 @@ var QRcodePage = (function () {
 
 /***/ }),
 
-/***/ 311:
+/***/ 307:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LocalNotificationsPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_local_notifications__ = __webpack_require__(308);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+var LocalNotificationsPage = (function () {
+    function LocalNotificationsPage(navCtrl, alertCtrl, plt, localNotifications) {
+        var _this = this;
+        this.navCtrl = navCtrl;
+        this.alertCtrl = alertCtrl;
+        this.plt = plt;
+        this.localNotifications = localNotifications;
+        this.plt.ready().then(function (rdy) {
+            _this.localNotifications.on('click', function (notification, state) {
+                var json = JSON.parse(notification.data);
+                var alert = _this.alertCtrl.create({
+                    title: notification.title,
+                    subTitle: json.mydata
+                });
+                alert.present();
+            });
+        });
+    }
+    LocalNotificationsPage.prototype.scheduleNotification = function () {
+        this.localNotifications.schedule({
+            id: 1,
+            title: 'Attention',
+            text: 'Notification,',
+            at: new Date(new Date().getTime() + 5 * 1000),
+            data: { madata: 'My hidden message this is' }
+        });
+    };
+    LocalNotificationsPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-home',template:/*ion-inline-start:"C:\Users\여경\Documents\Inflearn\src\pages\LocalNotifications\LocalNotifications.html"*/'<ion-header>\n\n    <ion-navbar>\n\n        <ion-title>\n\n            LocalNotifications\n\n        </ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content padding>\n\n    <button ion-button full (click)="scheduleNotification()">Schedule!</button>\n\n</ion-content>'/*ion-inline-end:"C:\Users\여경\Documents\Inflearn\src\pages\LocalNotifications\LocalNotifications.html"*/
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* AlertController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_local_notifications__["a" /* LocalNotifications */]])
+    ], LocalNotificationsPage);
+    return LocalNotificationsPage;
+}());
+
+//# sourceMappingURL=LocalNotifications.js.map
+
+/***/ }),
+
+/***/ 313:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(312);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(332);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(314);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(334);
 
 
 Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_1__app_module__["a" /* AppModule */]);
@@ -1014,7 +1074,7 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 
 /***/ }),
 
-/***/ 332:
+/***/ 334:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1022,7 +1082,7 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(41);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_component__ = __webpack_require__(373);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_component__ = __webpack_require__(375);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_action_sheet_action_sheet__ = __webpack_require__(236);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_alert_alert__ = __webpack_require__(237);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_button_button__ = __webpack_require__(238);
@@ -1046,16 +1106,20 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__pages_modals_modals__ = __webpack_require__(266);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__pages_database_database__ = __webpack_require__(267);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_26_angularfire2_database__ = __webpack_require__(268);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27_ngx_qrcode2__ = __webpack_require__(476);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27_ngx_qrcode2__ = __webpack_require__(478);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__ionic_native_barcode_scanner__ = __webpack_require__(306);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__ionic_native_camera__ = __webpack_require__(496);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__ionic_native_camera__ = __webpack_require__(498);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__pages_QRcode_QRcode__ = __webpack_require__(305);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__ionic_native_local_notifications__ = __webpack_require__(308);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_32__pages_LocalNotifications_LocalNotifications__ = __webpack_require__(307);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
+
 
 
 
@@ -1121,7 +1185,8 @@ var AppModule = (function () {
                 __WEBPACK_IMPORTED_MODULE_24__pages_modals_modals__["b" /* ModalsPage */],
                 __WEBPACK_IMPORTED_MODULE_24__pages_modals_modals__["a" /* ModalDetailPage */],
                 __WEBPACK_IMPORTED_MODULE_25__pages_database_database__["a" /* DatabasePage */],
-                __WEBPACK_IMPORTED_MODULE_30__pages_QRcode_QRcode__["a" /* QRcodePage */]
+                __WEBPACK_IMPORTED_MODULE_30__pages_QRcode_QRcode__["a" /* QRcodePage */],
+                __WEBPACK_IMPORTED_MODULE_32__pages_LocalNotifications_LocalNotifications__["a" /* LocalNotificationsPage */]
             ],
             imports: [
                 __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
@@ -1156,13 +1221,15 @@ var AppModule = (function () {
                 __WEBPACK_IMPORTED_MODULE_24__pages_modals_modals__["b" /* ModalsPage */],
                 __WEBPACK_IMPORTED_MODULE_24__pages_modals_modals__["a" /* ModalDetailPage */],
                 __WEBPACK_IMPORTED_MODULE_25__pages_database_database__["a" /* DatabasePage */],
-                __WEBPACK_IMPORTED_MODULE_30__pages_QRcode_QRcode__["a" /* QRcodePage */]
+                __WEBPACK_IMPORTED_MODULE_30__pages_QRcode_QRcode__["a" /* QRcodePage */],
+                __WEBPACK_IMPORTED_MODULE_32__pages_LocalNotifications_LocalNotifications__["a" /* LocalNotificationsPage */]
             ],
             providers: [
                 __WEBPACK_IMPORTED_MODULE_8__ionic_native_status_bar__["a" /* StatusBar */],
                 __WEBPACK_IMPORTED_MODULE_9__ionic_native_splash_screen__["a" /* SplashScreen */],
                 __WEBPACK_IMPORTED_MODULE_29__ionic_native_camera__["a" /* Camera */],
                 __WEBPACK_IMPORTED_MODULE_28__ionic_native_barcode_scanner__["a" /* BarcodeScanner */],
+                __WEBPACK_IMPORTED_MODULE_31__ionic_native_local_notifications__["a" /* LocalNotifications */],
                 { provide: __WEBPACK_IMPORTED_MODULE_1__angular_core__["u" /* ErrorHandler */], useClass: __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["d" /* IonicErrorHandler */] }
             ]
         })
@@ -1174,7 +1241,7 @@ var AppModule = (function () {
 
 /***/ }),
 
-/***/ 373:
+/***/ 375:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1196,6 +1263,7 @@ var AppModule = (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_modals_modals__ = __webpack_require__(266);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_database_database__ = __webpack_require__(267);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_QRcode_QRcode__ = __webpack_require__(305);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__pages_LocalNotifications_LocalNotifications__ = __webpack_require__(307);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1214,6 +1282,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 //import { HomePage } from '../pages/home/home';
+
 
 
 
@@ -1245,7 +1314,8 @@ var MyApp = (function () {
             { title: 'Loading page', component: __WEBPACK_IMPORTED_MODULE_12__pages_loading_loading__["a" /* LoadingPage */] },
             { title: 'modal page', component: __WEBPACK_IMPORTED_MODULE_14__pages_modals_modals__["b" /* ModalsPage */] },
             { title: 'Database Page', component: __WEBPACK_IMPORTED_MODULE_15__pages_database_database__["a" /* DatabasePage */] },
-            { title: 'QRCode Page', component: __WEBPACK_IMPORTED_MODULE_16__pages_QRcode_QRcode__["a" /* QRcodePage */] }
+            { title: 'QRCode Page', component: __WEBPACK_IMPORTED_MODULE_16__pages_QRcode_QRcode__["a" /* QRcodePage */] },
+            { title: 'LocalNotification Page', component: __WEBPACK_IMPORTED_MODULE_17__pages_LocalNotifications_LocalNotifications__["a" /* LocalNotificationsPage */] }
         ];
     }
     MyApp.prototype.initializeApp = function () {
@@ -1278,7 +1348,7 @@ var MyApp = (function () {
 
 /***/ }),
 
-/***/ 382:
+/***/ 384:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1299,5 +1369,5 @@ var Person = (function () {
 
 /***/ })
 
-},[311]);
+},[313]);
 //# sourceMappingURL=main.js.map
